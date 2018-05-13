@@ -8,7 +8,8 @@
 }
 .navbar-brand {
 
-  padding-top: 7px;
+  padding-top: 6px;
+  padding-left: 20px;
 }
 .nav.navbar-nav.navbar-right li a{
   color: #5EA1E5;
@@ -19,7 +20,8 @@
 }
 
 .jumbotron{
-  background-color: #d9e1e2
+  background-color: #d9e1e2;
+  margin-bottom: 0px;
 }
 
 .text{
@@ -42,44 +44,89 @@ padding-right: 400px;
 
 }
 
-.fa-facebook{
-color: black;
 
-
-
-
-}
 .fa{
+  padding: 20px;
+     font-size: 30px;
+     width: 50px;
+       text-decoration: none;
+}
+.fa-facebook{
+  padding-left: 46%;
+}
 
-   font-size: 30px;
-   width: 30px;
-   line-height: 30px;
+.fa, .fa:hover, .fa:active, .fa:visited, .fa:focus {
+    text-decoration:none;
+}
 
+.fa:visited, .fa:active, {
+   color: #454E54;
+}
+.map2{
+  margin-top: 14px;
+}
 
-   text-align: center;
+.makeLeft{
+  text-align: left;
+}
+
+.contactpad{
+  padding-top: 40px;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+.map{
+
+  padding-top: 80px;
+}
+.padleft{
+  padding-left: 40px;
+}
+
+.nopad{
+  padding-bottom: = 0px;
+  margin-bottom: 0px;
+  padding-top: = 0px;
+  padding-left: 20px;
 
 
 }
 
-.fa-instagram{
-
-  color: black;
-\
+.smallText{
+    font-size: 12px;
 
 }
 
-.fa:hover {
-    opacity: 0.7;
+.item{
+  padding-left: 110px;
 }
+
+.overlay {
+  color: white;
+  position:absolute;
+  z-index:12;
+  top:50%;
+  left:0;
+  width:100%;
+  text-align:center;
+}
+
 
 /*
 
 colors:
-Outer space: #454E54
-UN blue: #5EA1E5
-GAINSBRO: D9E1E2
-WHITE: #FFFFFF
-CORN SILK #FFF4E0
+Outer space: color: #454E54;
+UN blue: color: #5EA1E5;
+GAINSBRO: color: D9E1E2;
+WHITE: color: #FFFFFF;
+CORN SILK color: #FFF4E0;
 
 
 
