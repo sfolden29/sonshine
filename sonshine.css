@@ -31,8 +31,48 @@
   text-align: center
 }
 
-/*
+.collapse{
+text-align: right;
+background-color: #454E54;
+color: white;
 
+width: 200px;
+margin-left: 500px;
+padding-right: 400px;
+
+}
+
+.fa-facebook{
+color: black;
+
+
+
+
+}
+.fa{
+
+   font-size: 30px;
+   width: 30px;
+   line-height: 30px;
+
+
+   text-align: center;
+
+
+}
+
+.fa-instagram{
+
+  color: black;
+\
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+/*
 
 colors:
 Outer space: #454E54
