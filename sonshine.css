@@ -28,9 +28,28 @@
   /*width: 60%
 */
 }
+.columnspacing{
+  padding-top: 300px;
+}
 
 .makeCent{
   text-align: center
+}
+
+.altright{
+  text-align: right;
+  padding-right: 50px;
+}
+.welcomepadright{
+  padding-right: 50px;
+}
+.welcomepadleft{
+  padding-left: 100px;
+}
+
+body{
+  margin-right: 0px;
+  padding-right: 0px;
 }
 
 .collapse{
@@ -42,6 +61,10 @@ width: 200px;
 margin-left: 500px;
 padding-right: 400px;
 
+}
+
+.missionsize{
+  font-size: 50px;
 }
 
 
@@ -105,17 +128,48 @@ padding-right: 400px;
 }
 
 .item{
-  padding-left: 110px;
+  padding-left: 115px;
 }
 
 .overlay {
-  color: white;
+  color: White;
   position:absolute;
   z-index:12;
-  top:50%;
+  top:70%;
   left:0;
   width:100%;
   text-align:center;
+  font-size: 60px;
+  font-family: 'Bree Serif', serif;
+}
+
+.carousel-indicators li{
+
+  width: 30px;
+  height: 4px;
+  border-radius: 0;
+  background-color:
+}
+
+.carousel-indicators li.active{
+
+  width: 30px;
+  height: 5px;
+  border-radius: 0;
+  padding-top: 0px;
+}
+
+.overlay2{
+  color: White;
+  position:absolute;
+  z-index:12;
+  top:80%;
+  left:0;
+  width:100%;
+  text-align:center;
+  font-size: 40px;
+  font-family: 'Bree Serif', serif;
+
 }
 
 
