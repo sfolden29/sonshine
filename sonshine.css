@@ -28,10 +28,38 @@
   /*width: 60%
 */
 }
+
+.leftstaff{
+  border-right-color:  #454E54;
+  border-right-width: 4px;
+  border-right-style: solid;
+  padding-right: 15px;
+
+}
+
+.centerstaff{
+  border-right-color:  #454E54;
+  border-right-width: 4px;
+  border-right-style: solid;
+  padding-right: 15px;
+
+}
+.bottompad{
+  padding-bottom: 30px;
+}
+
+#staffcat {
+font-size: 40px;
+}
 .columnspacing{
   padding-top: 300px;
 }
-
+.welcomeimage{
+    margin-left: 150px;
+}
+.reservepad{
+  padding-top: 30px;
+}
 .makeCent{
   text-align: center
 }
@@ -170,6 +198,10 @@ padding-right: 400px;
   font-size: 40px;
   font-family: 'Bree Serif', serif;
 
+}
+
+.topspace{
+  padding-top: 60px;
 }
 
 
