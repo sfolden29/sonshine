@@ -27,7 +27,10 @@
 .text{
   /*width: 60%
 */
+
 }
+
+
 
 .leftstaff{
   border-right-color:  #454E54;
@@ -46,6 +49,19 @@
 }
 .bottompad{
   padding-bottom: 30px;
+}
+.toppad{
+  padding-top: 20px;
+}
+
+.horline{
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  border-bottom-color: #454E54;
+  margin-left: 40%; margin-right: 40%;
+  margin-top: 50px; margin-bottom: 0px;
+
+
 }
 
 #staffcat {
