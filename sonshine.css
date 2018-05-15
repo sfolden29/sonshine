@@ -12,13 +12,22 @@
   padding-left: 20px;
 }
 .nav.navbar-nav.navbar-right li a{
-  color: #5EA1E5;
+  color: #FFFFFF;
+}
+
+.linkcol{
+  color: black;
+}
+
+#novidmarge{
+  padding-right: 0px;
+  margin-right: 0px;
 }
 
 
 
 .nav.navbar-nav li a{
-  color: #5EA1E5;
+  color: #FFFFFF;
 }
 
 .jumbotron{
@@ -229,7 +238,36 @@ padding-right: 400px;
   right: -15px;
   border-width: 8px 0 8px 16px;
   border-color: transparent transparent transparent #5EA1E5;
-}09
+}
+
+.timeline ul li::after {
+  background: #fff;
+  transition: background .5s ease-in-out;
+}
+
+.timeline ul li.in-view::after {
+  background: #5EA1E5;
+}
+
+.timeline ul li div {
+  visibility: hidden;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+}
+
+.timeline ul li:nth-child(odd) div {
+  transform: translate3d(200px,0,0);
+}
+
+.timeline ul li:nth-child(even) div {
+  transform: translate3d(-200px,0,0);
+}
+
+.timeline ul li.in-view div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
 
 .item{
   padding-left: 115px;
