@@ -15,13 +15,58 @@
   color: #FFFFFF;
 }
 
+.makeRed{
+  color: red;
+}
+
 .linkcol{
   color: black;
+}
+@media screen and (max-width: 600px) {
+  .timeline ul li {
+    margin-left: 20px;
+  }
+
+  .timeline ul li div {
+    width: calc(100vw - 91px);
+  }
+
+  .timeline ul li:nth-child(even) div {
+    left: 45px;
+  }
+
+  .timeline ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #F45B69 transparent transparent;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .timeline ul li div {
+    width: 250px;
+  }
+  .timeline ul li:nth-child(even) div {
+    left: -289px; /*250+45-6*/
+  }
 }
 
 #novidmarge{
   padding-right: 0px;
   margin-right: 0px;
+}
+
+.setHeight{
+
+ overflow: hidden;
+  white-space: nowrap;
+
+ text-overflow: ellipsis;
+
+}
+
+.makeRed{
+  color: red;
 }
 
 
@@ -35,11 +80,6 @@
   margin-bottom: 0px;
 }
 
-.text{
-  /*width: 60%
-*/
-
-}
 
 
 
