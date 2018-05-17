@@ -107,9 +107,26 @@ $('.timeElement').hover( e => {
     }
   }
 
-
-
-
 }, e => {
   $(e.target).removeClass("hover");
+  setTimeout(function()
+  {
+  	var max = 500;
+    var tot, str;
+    $(e.target).each(function() {
+    	str = String($(this).html());
+      og=str;
+
+    	tot = str.length;
+      if(tot>=max)
+      {
+        $(this).addClass("short")
+      }
+      str = (tot <= max)
+      	? str
+        : str.substring(0,(max + 1))+"...";
+      $(this).html(str);
+    });
+  },500);
+
 });
