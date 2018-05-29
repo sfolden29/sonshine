@@ -69,8 +69,9 @@
 
 }
 
-
-
+.addLeftPad{
+  padding-left: 50px;
+}
 
 .nav.navbar-nav li a{
   color: #FFFFFF;
@@ -115,6 +116,10 @@
 
 
 }
+.aboutimg1{
+  margin-left: 40px;
+
+}
 
 #staffcat {
 font-size: 40px;
@@ -142,7 +147,9 @@ font-size: 40px;
 .welcomepadleft{
   padding-left: 100px;
 }
-
+#reg{
+margin-bottom: 50px;
+}
 
 
 .collapse{
@@ -166,14 +173,22 @@ padding-right: 400px;
 
 .fa{
   padding: 20px;
-     font-size: 30px;
-     width: 50px;
+     font-size: 55px;
+     width: 70px;
        text-decoration: none;
 }
 .fa-facebook{
-  padding-left: 46%;
+  padding-left: 43%;
+  padding-right: 80px;
 }
-
+.fa{
+  padding-top: 40px;
+}
+.bigPad{
+  padding-top: 0px;
+  margin-top: 0px;
+  padding-bottom: 80px;
+}
 .fa, .fa:hover, .fa:active, .fa:visited, .fa:focus {
     text-decoration:none;
 }
