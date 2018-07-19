@@ -2,7 +2,7 @@
 
 
 .navbar.navbar-default.navbar-inverse.navbar-fixed-top{
-  background-color: #454E54;
+  background-color: #2C2D2F;
   height: 50px;
   position: fixed;
 }
@@ -128,7 +128,7 @@
 .horline{
   border-bottom-style: solid;
   border-bottom-width: 4px;
-  border-bottom-color: #454E54;
+  border-bottom-color: #2C2D2F;
   margin-left: 40%; margin-right: 40%;
   margin-top: 50px; margin-bottom: 0px;
 
@@ -170,9 +170,68 @@ margin-bottom: 50px;
 }
 
 
+.sonbody{
+
+   background: url("shaypic.jpg")  top center fixed;
+   background-size: cover;
+   overflow: auto;
+
+   width: 100%;
+}
+
+.staffmess{
+  padding-top: 65px;
+  font-size: 70px;
+  letter-spacing: .1px;
+  font-kerning: none;
+}
+
+.staffmess2{
+
+  padding-bottom: 500px;
+}
+
+.staffmain{
+
+   background: url("cover4.jpg")  top center fixed;
+   background-size: cover;
+   overflow: auto;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 1000;
+
+   width: 100%;
+}
+
+.sonshinetitle{
+  font-size: 120px;
+  color: #2C2D2F;
+  padding-left: 120px;
+  padding-top: 70px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 1000;
+}
+.sonshinetitle2{
+  font-size: 30px;
+  color: #2C2D2F;
+  padding-left: 120px;
+  padding-bottom: 330px;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 1000;
+  letter-spacing: 8px;
+  margin-bottom: 0px;
+}
+
+.evenpad{
+  padding-left: 80px;
+  padding-right: 80px;
+
+}
+.botmarg{
+  padding-bottom: 400px;
+}
 .collapse{
 text-align: right;
-background-color: #454E54;
+background-color: #2C2D2F;
 color: white;
 
 width: 200px;
@@ -184,10 +243,26 @@ padding-right: 400px;
 .missionsize{
   font-size: 50px;
 }
+.nomarg{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 .nomarge{
   margin-right: 0px;
   padding-right: 0px;
 }
+.welcomemess{
+  padding-top: 25px;
+  font-family: 'Raleway',sans-serif;
+  opacity: 1;
+  spacing: 5px;
+}
+.welcomemess2{
+  padding-bottom: 30px;
+  font-family: 'Raleway',sans-serif;
+  opacity: 1.0;
+}
+
 
 .fa{
   padding: 20px;
@@ -251,6 +326,9 @@ padding-right: 400px;
 
 }
 
+
+
+}
 .smallText{
     font-size: 10px;
 
@@ -331,6 +409,19 @@ padding-right: 400px;
 
 .timeline ul li:nth-child(odd) div {
   transform: translate3d(200px,0,0);
+}
+.welcomecent{
+  background-color: #d9e1e2;
+  background-color: rgba(217,225,226,.8);
+  margin-bottom: 250px;
+}
+.trans{
+  background-color: #d9e1e2;
+  background-color: rgba(217,225,226,.7);
+}
+
+.trans2{
+  background-color: rgba(217,225,226,.2);
 }
 
 .timeline ul li:nth-child(even) div {
