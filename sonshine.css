@@ -175,7 +175,6 @@ margin-bottom: 50px;
    background: url("shaypic.jpg")  top center fixed;
    background-size: cover;
    overflow: auto;
-
    width: 100%;
 }
 
@@ -205,10 +204,12 @@ margin-bottom: 50px;
 .sonshinetitle{
   font-size: 120px;
   color: #2C2D2F;
-  padding-left: 120px;
-  padding-top: 70px;
+
   font-family: 'Raleway', sans-serif;
   font-weight: 1000;
+
+  padding-left: 120px;
+  padding-top: 70px;
 }
 .sonshinetitle2{
   font-size: 30px;
@@ -233,13 +234,10 @@ margin-bottom: 50px;
 text-align: right;
 background-color: #2C2D2F;
 color: white;
-
 width: 200px;
 margin-left: 500px;
 padding-right: 400px;
-
 }
-
 .missionsize{
   font-size: 50px;
 }
@@ -252,15 +250,18 @@ padding-right: 400px;
   padding-right: 0px;
 }
 .welcomemess{
-  padding-top: 25px;
+  padding-top: 60px;
   font-family: 'Raleway',sans-serif;
-  opacity: 1;
+  padding-bottom: 20px;
+  font-size: 50px;
   spacing: 5px;
 }
 .welcomemess2{
-  padding-bottom: 30px;
+  padding-bottom: 70px;
+  margin-bottom: 339px;
   font-family: 'Raleway',sans-serif;
   opacity: 1.0;
+  line-height: 40px;
 }
 
 
@@ -318,12 +319,10 @@ padding-right: 400px;
 }
 
 .nopad{
-  padding-bottom: = 0px;
+  padding-bottom:  0px;
   margin-bottom: 0px;
-  padding-top: = 0px;
+  padding-top:  0px;
   padding-left: 20px;
-
-
 }
 
 
@@ -381,6 +380,38 @@ padding-right: 400px;
   border-width: 8px 16px 8px 0;
   border-color: transparent #5EA1E5 transparent transparent;
 }
+.bpic{
+
+  width: 100%;
+  margin-top: 30px;
+  background-size: cover;
+  position: relative;
+}
+.top-right{
+  position: absolute;
+  top: 50px;
+  text-align: center;
+  width: 100%;
+  left: 0px;
+  font-size: 100px;
+  color: #2C2D2F;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 1000;
+}
+.top-cent{
+  position: absolute;
+  top: 180px;
+  text-align:center;
+  padding-left: 100px;
+  padding-right: 100px;
+  line-height: 40px;
+
+  font-size: 30px;
+  color: #2C2D2F;
+  font-family: 'Raleway', sans-serif;
+
+
+}
 
 .timeline ul li:nth-child(even) div {
   left: -439px;
@@ -412,8 +443,9 @@ padding-right: 400px;
 }
 .welcomecent{
   background-color: #d9e1e2;
-  background-color: rgba(217,225,226,.8);
-  margin-bottom: 250px;
+  
+  margin-bottom: 0px;
+
 }
 .trans{
   background-color: #d9e1e2;
