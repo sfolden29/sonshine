@@ -31,6 +31,7 @@
 
 .campBotPad{
   padding-bottom: 35px;
+  font-family: 'Bree Serif', serif;
 }
 
 .makeRed{
@@ -86,9 +87,38 @@
 .hover{
 
 }
-
+.notop{
+  margin-top: 0px;
+}
 .addLeftPad{
+  background-color: #87A1A4;
   padding-left: 50px;
+  margin-left: 150px;
+  margin-top: 0px;
+
+  padding-bottom: 140px;
+  margin-bottom: 60px;
+
+}
+.concontainer{
+  background-color: #d9e1e2;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+
+}
+.greencolor{
+  color:#4F7276;
+  font-size: 15px;
+  padding-left: 20px;
+  padding-top: 0f0px;
+}
+.greencolor2{
+  color:#4F7276;
+  font-size: 15px;
+  padding-top: 20px;
+
 }
 
 .nav.navbar-nav li a{
@@ -96,6 +126,11 @@
 }
 
 .jumbotron{
+  background-color: #d9e1e2;
+  margin-bottom: 0px;
+}
+
+.jumbotron1{
   background-color: #d9e1e2;
   margin-bottom: 0px;
 }
@@ -177,6 +212,29 @@ margin-bottom: 50px;
    overflow: auto;
    width: 100%;
 }
+.smalltop{
+  padding-top: 10px;
+}
+
+
+
+.atitle{
+  padding-top: 165px;
+  padding-bottom: 250px;
+  font-size: 70px;
+  letter-spacing: 6px;
+  font-kerning: none;
+  font-family: 'Raleway', sans-serif;
+
+  color: white;
+  font-weight: 1000;
+}
+.bigger{
+  font-size: 30px;
+  width: 100%;
+  padding-bottom: 15px;
+
+}
 
 .staffmess{
   padding-top: 65px;
@@ -189,6 +247,113 @@ margin-bottom: 50px;
 
   padding-bottom: 500px;
 }
+
+
+.campmain{
+
+   background: url("campsmain.jpg")  top center fixed;
+   background-size: cover;
+   overflow: auto;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 1000;
+
+
+   width: 100%;
+}
+
+.white{
+  color: white;
+  font-size: 15px;
+}
+
+
+.whitebig{
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 6px;
+  color: white;
+  text-align: left;
+  padding-top: 65px;
+
+}
+
+.biggreen{
+    color:#4F7276;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 6px;
+    padding-left: 20px;
+    text-align: left;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+
+}
+.campmess{
+  padding-top: 100px;
+  font-size: 70px;
+  letter-spacing: 6px;
+  padding-bottom: 350px;
+}
+.camptitle1
+{
+  letter-spacing: 10px;
+  font-size: 40px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 1000;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.conmess{
+  padding-top: 100px;
+  font-size: 70px;
+  letter-spacing: 6px;
+  padding-bottom: 350px;
+}
+
+.contactmain2{
+
+   background: url("contactmain.jpg")  top center fixed;
+   background-size: cover;
+   overflow: auto;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 1000;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+   width: 100%;
+}
+
+
+.aboutmain{
+
+   background: url("aboutwave.jpg")  top center fixed;
+   background-size: cover;
+   overflow: auto;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 1000;
+
+   width: 100%;
+}
+.aboutmaininner{
+  background: rgba(127, 127, 127, 0.3);
+  background-image: radial-gradient(black 33%, transparent 33%);
+  background-size: 2px 2px;
+  height: 100%;
+  width: 100%;
+
+}
+
+
+.aboutmain::before{
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 220px;
+}
+
+
 
 .staffmain{
 
@@ -292,22 +457,39 @@ padding-right: 400px;
 }
 .map2{
   margin-top: 14px;
+
+}
+
+.addLeftPad2{
+  padding-left: 40px;
 }
 
 .makeLeft{
   text-align: left;
 }
 
-.contactpad{
-  padding-top: 40px;
+.eb{
+  padding-bottom: 35px;
 }
 
+.botpadbig{
+  padding-bottom: 220px;
+}
+
+.et{
+  padding-top: 35px;
+}
 .row {
     display: flex;
 }
 
 .column {
     flex: 50%;
+}
+
+.columncon {
+    flex: 50%;
+    padding-top: 0px;
 }
 
 .map{
@@ -329,7 +511,7 @@ padding-right: 400px;
 
 }
 .smallText{
-    font-size: 10px;
+    font-size: 6px;
 
 }
 
@@ -352,6 +534,7 @@ padding-right: 400px;
   height: 30px;
   border-radius: 50%;
   background: inherit;
+
 }
 
 .timeline ul li div {
@@ -360,6 +543,7 @@ padding-right: 400px;
   width: 400px;
   padding: 15px;
   background: #5EA1E5;
+  color: #2C2D2F;
 }
 
 .timeline ul li div::before {
@@ -443,9 +627,49 @@ padding-right: 400px;
 }
 .welcomecent{
   background-color: #d9e1e2;
-  
+
   margin-bottom: 0px;
 
+}
+.contactmain{
+  background-color: #3E4357;
+
+  margin-bottom: 0px;
+}
+.sonmin{
+  padding-top: 80px;
+  font-size: 20px;
+  padding-left: 100px;
+  letter-spacing: 8px;
+  font-family: 'Raleway', sans-serif;
+  color: #B1B2B7;
+}
+.conmain{
+  color: #B1B2B7;
+  margin-top: 0px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 8px;
+  padding-top: 20px;
+}
+.conpad{
+  padding-top: 50px;
+}
+.conpad2{
+  padding-bottom: 50px;
+}
+
+.form-group{
+  width: 500px;
+  padding-left: 100px;
+  padding-right: 0px;
+  margin-right: 0px;
+
+}
+.sonadd{
+  padding-left: 100px;
+  color: white;
+  font-size: 18px;
 }
 .trans{
   background-color: #d9e1e2;
