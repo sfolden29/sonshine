@@ -50,7 +50,7 @@ for (var k = 0; k < items.length; k++) {
 
 setTimeout(function()
 {
-	var max = 500;
+	var max = 350;
   var tot, str;
   $('.timeElement').each(function() {
   	str = String($(this).html());
@@ -66,7 +66,7 @@ setTimeout(function()
       : str.substring(0,(max + 1))+"...";
     $(this).html(str);
   });
-},500);
+},350);
 
 
 $('.timeElement').hover( e => {
@@ -111,7 +111,7 @@ $('.timeElement').hover( e => {
   $(e.target).removeClass("hover");
   setTimeout(function()
   {
-  	var max = 500;
+  	var max = 350;
     var tot, str;
     $(e.target).each(function() {
     	str = String($(this).html());
@@ -127,6 +127,6 @@ $('.timeElement').hover( e => {
         : str.substring(0,(max + 1))+"...";
       $(this).html(str);
     });
-  },500);
+  },350);
 
 });
