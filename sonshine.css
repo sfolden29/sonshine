@@ -15,19 +15,19 @@
   color: #FFFFFF;
 }
 
-.campPic1{
-  margin-left: 75px;
-  margin-right: 50px;
-}
 .campPic2{
   margin-left: 50px;
   margin-right: 10px;
 }
 
-.campPad{
-  margin-top: 40px;
+.campPic3{
 
+  margin-top: 130px;
+  margin-left: 50px;
+  float: left;
 }
+
+
 
 .campBotPad{
   padding-bottom: 35px;
@@ -121,6 +121,7 @@
 
 }
 
+
 .nav.navbar-nav li a{
   color: #FFFFFF;
 }
@@ -159,7 +160,15 @@
 .toppad{
   padding-top: 20px;
 }
+.fullcent{
+  padding-left: 7%;
+  padding-right: 7%;
 
+}
+
+#impfont{
+  font-size: 18px;
+}
 .horline{
   border-bottom-style: solid;
   border-bottom-width: 4px;
@@ -247,8 +256,49 @@ margin-bottom: 50px;
 
   padding-bottom: 500px;
 }
+.pricing{
+  font-family: 'Raleway', sans-serif;
+  padding-top: 40px;
+  font-weight: 1000;
+  font-size: 70px;
+  letter-spacing: 7px;
+
+}
+
+.campsub{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 1000;
+  font-size: 34px;
+  letter-spacing: 7px;
+  padding-left: 25px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.campsub2{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 1000;
+  font-size: 34px;
+  letter-spacing: 7px;
+  padding-left: 124px;
+  padding-bottom: 0px;
+  padding-top: 130px;
+  margin-top: 0px;
+
+}
+.campsubtext{
+  padding-left: 25px;
+  padding-top: 10px;
+  font-size: 17px;
+  padding-right: 100px;
+}
+.campsubtext2{
+  padding-left: 120px;
+  padding-top: 10px;
+  font-size: 17px;
 
 
+}
 .campmain{
 
    background: url("campsmain.jpg")  top center fixed;
@@ -283,7 +333,7 @@ margin-bottom: 50px;
     padding-left: 20px;
     text-align: left;
     padding-top: 40px;
-    padding-bottom: 0px;
+    padding-bottom: 0px;0
     margin-bottom: 0px;
 
 }
@@ -300,7 +350,8 @@ margin-bottom: 50px;
   font-family: 'Raleway', sans-serif;
   font-weight: 1000;
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 0;
+  margin-bottom: 0px;
 }
 
 .conmess{
@@ -312,7 +363,7 @@ margin-bottom: 50px;
 
 .contactmain2{
 
-   background: url("contactmain.jpg")  top center fixed;
+   background: url("kenna2.jpg")  top center fixed;
    background-size: cover;
    overflow: auto;
    font-family: 'Raleway', sans-serif;
@@ -457,17 +508,30 @@ padding-right: 400px;
 }
 .map2{
   margin-top: 14px;
-
 }
 
 .addLeftPad2{
-  padding-left: 40px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
 }
 
 .makeLeft{
   text-align: left;
 }
+.dir{
+  padding-top: 30px;
+  font-size: 50px;
+  letter-spacing: 6px;
+  font-kerning: none;
+  font-family: 'Raleway', sans-serif;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 
+
+}
 .eb{
   padding-bottom: 35px;
 }
@@ -493,11 +557,16 @@ padding-right: 400px;
 }
 
 .map{
-
+letter-spacing: 4px;
   padding-top: 80px;
 }
 .padleft{
   padding-left: 40px;
+}
+
+.darker{
+  background-color: #BEBEBE;
+  margin-bottom: 0px;
 }
 
 .nopad{
