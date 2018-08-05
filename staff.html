@@ -127,23 +127,29 @@ The Application should take you no longer than 10 minutes.  Please return it pro
             <div class="col-lg-6">
 
 
-              <p class = "sonmin">SONSHINE MINISTRIES</p>
-              <p class="sonadd">Sonshine Specialized Camping Ministries  P.O. Box <br> Woodbridge Ca. 95258   209-367-0212 (ph)  209-368-1662 (fax)</p>
+            <p class = "sonmin">SONSHINE MINISTRIES</p>
+            <p class="sonadd">Sonshine Specialized Camping Ministries  P.O. Box <br> Woodbridge Ca. 95258   209-367-0212 (ph)  209-368-1662 (fax)</p>
             </div>
 
             <div class="col-lg-6">
-              <div class="form-group conpad">
-                <input type="text" class="form-control" id="nameinput"placeholder="John Smith">
-              </div>
+              <form action="https://formspree.io/footballshane@gmail.com"
+            method="POST">
+
+
+                <div class="form-group conpad">
+                  <input type="text" class="form-control" name="name" id="nameinput"placeholder="John Smith">
+                </div>
               <div class="form-group">
-                <input type="email" class="form-control" id="emailinput" placeholder="name@example.com">
+                <input type="email" class="form-control" id="emailinput" name = "reply_to"placeholder="name@example.com">
               </div>
               <div class="form-group conpad2">
-                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Questions, comments, concerns..."rows="3"></textarea>
+                <textarea name = "message" class="form-control" id="exampleFormControlTextarea1" placeholder="Questions, comments, concerns..."rows="3"></textarea>
+                <input type="submit" class ="btn btn-secondary newbutt" value="Send">
               </div>
 
 
-            </form>
+
+              </form>
 
           </div>
 
