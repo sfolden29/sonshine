@@ -1,6 +1,4 @@
 
-
-
 .navbar.navbar-default.navbar-inverse.navbar-fixed-top{
   background-color: #2C2D2F;
   height: 50px;
@@ -14,6 +12,14 @@
 .nav.navbar-nav.navbar-right li a{
   color: #FFFFFF;
 }
+.suppmess4{
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 30px;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+
 
 .campPic2{
   margin-left: 50px;
@@ -52,6 +58,9 @@
 
 .linkcol{
   color: #DCDCDC;
+}
+.linkcol2{
+  color: black;
 }
 @media screen and (max-width: 600px) {
   .timeline ul li {
@@ -200,6 +209,19 @@
   margin-left: 40px;
 
 }
+.supppic1{
+  margin-left: 40px;
+
+}
+.pfdtext{
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-family: 'PT Sans', sans-serif;
+}
 
 #staffcat {
 font-size: 40px;
@@ -270,8 +292,23 @@ margin-bottom: 50px;
   padding-top: 65px;
   font-size: 70px;
   letter-spacing: 7px;
+}
+.suppmess{
+  padding-top: 220px;
+  padding-bottom: 400px;
+  font-size: 80px;
+  letter-spacing: 9px;
+  color: #DCDCDC;
+}
+.con2{
+  font-size: 20px;
+  padding-top: 35px;
+  padding-bottom: 130px;
+  line-height: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
 
-
+  font-family: 'Bree', sans-serif;
 }
 
 .staffmess{
@@ -311,6 +348,14 @@ margin-bottom: 50px;
   padding-bottom: 280px;
   margin-top: 0px;
   margin-bottom: 0px;
+
+}
+
+.contribute{
+  padding-top: 130px;
+  font-size: 40px;
+  letter-spacing: 6px;
+  font-family: 'Raleway', sans-serif;
 
 }
 
@@ -587,6 +632,17 @@ margin-bottom: 50px;
 
    width: 100%;
 }
+.suppmain{
+
+   background: url("support.jpg")  top center fixed;
+   background-size: cover;
+   overflow: auto;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 1000;
+   letter-spacing: 7px;
+
+   width: 100%;
+}
 
 .sonshinetitle{
   font-size: 120px;
@@ -656,13 +712,18 @@ padding-right: 400px;
   padding-top: 0px;
   margin-top: 0px;
 
-  font-size: 24px;
+  font-size: 22px;
   letter-spacing: 2px;
   line-height: 35px;
   padding-left: 5%;
   padding-right: 5%;
 
 }
+
+.exbot{
+  padding-bottom: 90px;
+}
+
 
 
 
@@ -708,15 +769,25 @@ padding-right: 400px;
   text-align: left;
 }
 .dir{
-  padding-top: 30px;
+  padding-top: 120px;
   font-size: 50px;
   letter-spacing: 6px;
   font-kerning: none;
   font-family: 'Raleway', sans-serif;
   padding-bottom: 0px;
   margin-bottom: 0px;
-
-
+}
+.slightlower{
+  margin-top: 20px;
+}
+.slightlower2{
+  margin-top: 20px;
+}
+.nom{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 150px;
+  padding-bottom: 100px;
 }
 .eb{
   padding-bottom: 35px;
