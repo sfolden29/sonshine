@@ -218,7 +218,7 @@
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 100px;
-  font-size: 16px;
+  font-size: 17px;
   letter-spacing: 1px;
   font-family: 'PT Sans', sans-serif;
 }
@@ -288,6 +288,10 @@ margin-bottom: 50px;
   background-color: rgba(0,0,0,.5); // Tint color
   background-blend-mode: multiply;
 }
+.background-tintp {
+  background-color: rgba(256,256 ,256,.2); // Tint color
+  background-blend-mode: multiply;
+}
 .alummess{
   padding-top: 65px;
   font-size: 70px;
@@ -301,9 +305,27 @@ margin-bottom: 50px;
   color: #DCDCDC;
 }
 .pfdmess{
+  padding-top: 160px;
+  padding-bottom: 400px;
+  font-size: 80px;
+  letter-spacing: 9px;
+  color: #DCDCDC;
+}
+.pfdmess2{
+  padding-bottom: 20px;
+  padding-left: 6%;
+  padding-right: 6%;
+  font-family: 'Raleway', sans-serif;
+}
+.pfdmess3{
+
+  padding-left: 6%;
+  padding-right: 6%;
+}
+.donatemess{
   padding-top: 120px;
   padding-bottom: 400px;
-  font-size: 60px;
+  font-size: 80px;
   letter-spacing: 9px;
   color: #DCDCDC;
 }
@@ -655,8 +677,24 @@ margin-bottom: 50px;
 
    width: 100%;
 }
-
+.bigdem{
+  padding-top: 150px;
+  margin-top: 0px;
+  padding-bottom: 300px;
+  margin-bottom: 0px;
+}
 .pfdmain{
+
+   background: url("pfd.jpg")  top center fixed;
+   background-size: cover;
+   overflow: auto;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 1000;
+   letter-spacing: 7px;
+   width: 100%;
+   margin-bottom: 0px;
+}
+.donatemain{
 
    background: url("pfd.jpg")  top center fixed;
    background-size: cover;
@@ -688,10 +726,35 @@ margin-bottom: 50px;
   margin-bottom: 0px;
 }
 
+.needpic{
+  background: url("water.png")  top center ;
+  background-size: cover;
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+  width: 100%;
+
+}
+
 .evenpad{
   padding-left: 80px;
   padding-right: 80px;
 
+}
+.pfdmess4{
+  font-family: 'Raleway', sans-serif;
+  padding-bottom: 50px;
+  padding-top: 35px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 35px;
+}
+.makeRight{
+  padding-left: 100px;
+  padding-bottom: 50px;
+}
+.makeRightish{
+  padding-left: 60px;
 }
 .botmarg{
   padding-bottom: 400px;
