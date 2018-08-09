@@ -304,6 +304,13 @@ margin-bottom: 50px;
   letter-spacing: 9px;
   color: #DCDCDC;
 }
+.rjwmess{
+  padding-top: 160px;
+  padding-bottom: 400px;
+  font-size: 80px;
+  letter-spacing: 9px;
+  color: #DCDCDC;
+}
 .pfdmess{
   padding-top: 160px;
   padding-bottom: 400px;
@@ -316,6 +323,7 @@ margin-bottom: 50px;
   padding-left: 6%;
   padding-right: 6%;
   font-family: 'Raleway', sans-serif;
+
 }
 .pfdmess3{
 
@@ -468,6 +476,20 @@ margin-bottom: 50px;
 }
 #impfont3{
   font-size: 17px;
+}
+.rjwmess2{
+  padding-left: 15%;
+  padding-top: 50px;
+  font-size: 16px;
+  padding-right: 15%;
+  line-height: 28px;
+
+  background: rgba(217, 225, 226,.2);
+
+
+}
+.botpadrj{
+  padding-bottom: 50px;
 }
 
 .alumsubtext2{
@@ -686,6 +708,17 @@ margin-bottom: 50px;
 .pfdmain{
 
    background: url("pfd.jpg")  top center fixed;
+   background-size: cover;
+   overflow: auto;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 1000;
+   letter-spacing: 7px;
+   width: 100%;
+   margin-bottom: 0px;
+}
+.rjwmain{
+
+   background: url("rjw.jpg")  top center fixed;
    background-size: cover;
    overflow: auto;
    font-family: 'Raleway', sans-serif;

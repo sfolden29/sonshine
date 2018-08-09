@@ -1,0 +1,32 @@
+THINGS I STILL GOTTA fix
+
+Make hamburger on the right u nerdo
+
+The letters on the slideshow stay low if the page is resized rip
+//i think this is actually good bc i deleted everything
+
+Make the youtube video not skip
+//cant actually remember what this is about lol
+
+Fix the weird white bar on the right when u scroll
+//ON EVERY PAGE
+
+Add my disclaimer tag to all pages bc im sneaky
+
+Fb ig icons big
+
+Add tab icon to all pages
+
+Make timeline not lag
+//or slow the animation
+
+Figure out paypal api
+
+
+Figure out resizing
+
+Mobile lmao
+
+Confirm email pfd page
+
+underline h2 tags in rjw page
