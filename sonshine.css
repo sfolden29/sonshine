@@ -202,9 +202,19 @@
   border-bottom-color: #2C2D2F;
   margin-left: 40%; margin-right: 40%;
   margin-top: 50px; : 0px;
+}
+.backfix{
 
+  margin-top: 0px;
+  margin-top: 70px;
+
+  margin-bottom: 30px;
 
 }
+.backfix2{
+  background: #DCDCDC;
+}
+
 .aboutimg1{
   margin-left: 40px;
 
@@ -222,7 +232,9 @@
   letter-spacing: 1px;
   font-family: 'PT Sans', sans-serif;
 }
-
+.donbot{
+  padding-bottom: 40px;
+}
 #staffcat {
 font-size: 40px;
 }
@@ -292,6 +304,10 @@ margin-bottom: 50px;
   background-color: rgba(256,256 ,256,.3); // Tint color
   background-blend-mode: multiply;
 }
+.background-tintd {
+  background-color: rgba(0,0 ,0,.3); // Tint color
+  background-blend-mode: multiply;
+}
 .alummess{
   padding-top: 65px;
   font-size: 70px;
@@ -335,10 +351,89 @@ margin-bottom: 50px;
 }
 .donatemess{
   padding-top: 120px;
-  padding-bottom: 400px;
+  padding-bottom: 490px;
   font-size: 80px;
   letter-spacing: 9px;
   color: #DCDCDC;
+  margin-bottom: 0px;
+}
+
+.donatemess2{
+  padding-top: 110px;
+  padding-bottom:  30px;
+  font-size: 50px;
+  letter-spacing: 9px;
+  color: #2C2D2F;
+  background-color: #DCDCDC;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  font-family: 'Raleway', sans-serif;
+}
+.donatemess4{
+  padding-top: 90px;
+  padding-bottom:  30px;
+  font-size: 50px;
+  letter-spacing: 9px;
+  color: #2C2D2F;
+  background-color: #DCDCDC;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.donatemess3{
+  padding-top: 0px;
+  padding-bottom:  40px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #2C2D2F;
+  background-color: #DCDCDC;
+  margin-top: 0px;
+margin-bottom: 0PX;
+
+}
+.donatemess7{
+  padding-top: 0px;
+  padding-bottom:  40px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #2C2D2F;
+  background-color: #DCDCDC;
+  margin-top: 0px;
+margin-bottom: 0PX;
+padding-left: 6%;
+padding-right: 6%;
+
+}
+.donatemess5{
+  padding-top: 0px;
+  padding-bottom:  40px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  color: #2C2D2F;
+  background-color: #DCDCDC;
+  margin-top: 0px;
+margin-bottom: 0PX;
+
+}
+.donatemess6{
+  padding-top: 0px;
+  padding-bottom:  0px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #2C2D2F;
+  background-color: #DCDCDC;
+  margin-top: 0px;
+margin-bottom: 0PX;
+
+}
+.tp{
+  margin-top: 30px;
+  font-size: 18px;
+
 }
 .con2{
   font-size: 20px;
@@ -406,7 +501,7 @@ margin-bottom: 50px;
 
 .histmess2{
 
-  font-size: 20px;
+  font-size: 24px;
   padding-left: 50px;
   padding-right: 50px;
   letter-spacing: 2px;
@@ -742,13 +837,15 @@ hr {
 }
 .donatemain{
 
-   background: url("pfd.jpg")  top center fixed;
+   background: url("donate.jpg")  top center fixed;
+
    background-size: cover;
    overflow: auto;
    font-family: 'Raleway', sans-serif;
    font-weight: 1000;
    letter-spacing: 7px;
    width: 100%;
+
 }
 
 .sonshinetitle{
@@ -829,7 +926,7 @@ padding-right: 400px;
   font-family: 'Raleway',sans-serif;
   padding-bottom: 20px;
   font-size: 50px;
-  spacing: 5px;
+  letter-spacing: 7px;
 }
 .welcomemess2{
   padding-bottom: 70px;

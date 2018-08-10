@@ -22,7 +22,6 @@ Make timeline not lag
 
 Figure out paypal api
 
-
 Figure out resizing
 
 Mobile lmao
