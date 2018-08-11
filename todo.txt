@@ -14,8 +14,10 @@ Fix the weird white bar on the right when u scroll
 Add my disclaimer tag to all pages bc im sneaky
 
 Fb ig icons big
+//deleted icons
 
 Add tab icon to all pages
+//???
 
 Make timeline not lag
 //or slow the animation
@@ -27,7 +29,7 @@ Figure out resizing
 Mobile lmao
 
 Confirm email pfd/rjw/puredono page
-//COMPLETE (2/3)
+//COMPLETE (3/3)
 
 underline h2 tags in rjw page
 //COMPLETE
