@@ -323,11 +323,14 @@ margin-bottom: 50px;
 .fsize{
   font-size: 24px;
   background-color: 	#F0F0F0;
+
 }
 .fontsizer{
-  margin-top: 70px;
-  margin-bottom: 40px;
+  margin-top: 0px;
+
+  margin-bottom: 0px;
   font-size: 22px;
+  background-color: #F0F0F0;
 }
 
 .rjwmess{
@@ -453,7 +456,7 @@ margin-bottom: 0PX;
 .bpbp{
 
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
     font-size: 26px;
     background-color:	#F0F0F0;
     font-weight: 400;
@@ -462,7 +465,7 @@ margin-bottom: 0PX;
 .verticalLine {
   border-left: thick solid #ff0000;
   border-color: black;
-  
+  line-height: 10px;
 }
 
 .adjustvid{
@@ -860,14 +863,15 @@ hr {
    margin-bottom: 0px;
 }
 .rjwmain{
-
    background: url("rjw.jpg")  top center fixed;
    background-size: cover;
    overflow: auto;
-
    width: 100%;
    margin-bottom: 0px;
    overflow: auto;
+}
+.nomar{
+  margin-bottom: 0px;
 }
 .donatemain{
 
