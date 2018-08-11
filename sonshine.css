@@ -208,7 +208,7 @@
   margin-top: 0px;
   margin-top: 70px;
 
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 
 }
 .backfix2{
@@ -320,8 +320,18 @@ margin-bottom: 50px;
   letter-spacing: 9px;
   color: #DCDCDC;
 }
+.fsize{
+  font-size: 24px;
+  background-color: 	#F0F0F0;
+}
+.fontsizer{
+  margin-top: 70px;
+  margin-bottom: 40px;
+  font-size: 22px;
+}
+
 .rjwmess{
-  padding-top: 160px;
+  padding-top: 200px;
   padding-bottom: 420px;
   font-size: 80px;
   font-family: 'Raleway', sans-serif;
@@ -372,7 +382,7 @@ margin-bottom: 50px;
   font-family: 'Raleway', sans-serif;
 }
 .donatemess4{
-  padding-top: 90px;
+  padding-top: 60px;
   padding-bottom:  30px;
   font-size: 50px;
   letter-spacing: 9px;
@@ -432,9 +442,32 @@ margin-bottom: 0PX;
 
 }
 .tp{
-  margin-top: 30px;
-  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 26px;
+  background-color:	#F0F0F0;
+  font-weight: 400;
 
+
+}
+.bpbp{
+
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 26px;
+    background-color:	#F0F0F0;
+    font-weight: 400;
+}
+
+.verticalLine {
+  border-left: thick solid #ff0000;
+  border-color: black;
+  
+}
+
+.adjustvid{
+  text-align: center;
+  margin-top: 40px;
 }
 .con2{
   font-size: 20px;
