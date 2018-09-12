@@ -91,6 +91,9 @@
   }
 }
 
+
+
+
 #novidmarge{
   padding-right: 0px;
   margin-right: 0px;
@@ -319,6 +322,10 @@ margin-bottom: 50px;
 }
 .background-tint {
   background-color: rgba(0,0,0,.5); // Tint color
+  background-blend-mode: multiply;
+}
+.background-tintpz {
+  background-color: rgba(256,256 ,256,.45); // Tint color
   background-blend-mode: multiply;
 }
 .background-tintp {
@@ -1201,29 +1208,37 @@ letter-spacing: 4px;
 }
 .bpic{
 
-  width: 100%;
 
+  background: url("boat.jpg")  top center fixed;
+  background-attachment: scroll;
+
+  height: 100vh;
   background-size: cover;
-  position: relative;
 }
-.top-right{
-  position: absolute;
-  top: 50px;
+.bigboytext{
+
+
+
   text-align: center;
   width: 100%;
-  left: 0px;
+
   font-size: 100px;
   color: #2C2D2F;
   font-family: 'Raleway', sans-serif;
   font-weight: 1000;
 }
-.top-cent{
-  position: absolute;
-  top: 180px;
+.smallboytext{
+
+  margin-top: 0px;
   text-align:center;
+
   padding-left: 100px;
   padding-right: 100px;
   line-height: 40px;
+  padding-bottom: 100px;
+  margin-bottom: 0px;
+  padding-bottom: 600px;
+
 
   font-size: 30px;
   color: #2C2D2F;
@@ -1271,6 +1286,7 @@ letter-spacing: 4px;
 
   margin-bottom: 0px;
 }
+
 .sonmin{
   padding-top: 80px;
   font-size: 20px;
@@ -1293,7 +1309,6 @@ letter-spacing: 4px;
 .conpad2{
   padding-bottom: 50px;
 }
-
 .form-group{
   width: 500px;
   padding-left: 100px;
@@ -1374,6 +1389,102 @@ letter-spacing: 4px;
 
 .topspace{
   padding-top: 60px;
+}
+
+@media screen and (max-width: 990px) {
+.bigboytext{
+  padding-bottom: 5px;
+  margin-bottom: 0px;
+
+}
+}
+
+@media screen and (max-width: 600px) {
+  body {
+
+    overflow-x:hidden !important;
+}
+.sonshinetitle{
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 60px;
+  text-align: center;
+  font-size: 35px;
+
+}
+.sonshinetitle2{
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+.welcomemess{
+  font-size: 30px;
+}
+
+.welcomemess2{
+  font-size: 15px;
+  line-height: 23px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+.bpic{
+  background: url("mobilehome.jpg")  top center fixed;
+  background-attachment: scroll;
+
+  height: 100vh;
+  background-size: cover;
+
+}
+
+
+.bigboytext{
+  font-size: 30px;
+  padding-top: 60px;
+
+
+
+}
+.smallboytext{
+  font-size: 16px;
+
+
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 20px;
+  top:30px;
+  padding-bottom: 400px;
+  padding-top: 100px;
+  margin-bottom: 20px;
+}
+.conmain{
+  font-size: 26px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.sonmin{
+  padding-left: 20px;
+  padding-top: 40px;
+  text-align: center;
+}
+.sonadd{
+  text-align: center;
+  padding-left: 20px;
+}
+.form-group{
+  padding-left: 20px;
+  margin-left: 20px;
+  width: 85%;
+  text-align: center;
+}
+.newbutt{
+  text-align: center;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
 }
 
 
