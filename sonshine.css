@@ -523,7 +523,7 @@ margin-bottom: 0PX;
 .newbutt{
   margin-left: 160px;
   margin-top: 20px;
-  background-color: white;
+
 }
 
 .staffmess{
@@ -1407,7 +1407,9 @@ letter-spacing: 4px;
 @media screen and (max-width: 600px) {
   body {
 
-    overflow-x:hidden !important;
+    
+    overflow: scroll;
+-webkit-overflow-scrolling: touch;
 }
 .sonbody{
   background: url("shaypic.jpg")  top center;
@@ -1519,6 +1521,7 @@ letter-spacing: 4px;
   text-align: center;
   margin-left: 20px;
   margin-top: 20px;
+  background-color: white;
 }
 .aboutmain{
 
