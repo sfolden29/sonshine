@@ -1416,8 +1416,7 @@ letter-spacing: 4px;
         left: 0px;
         right: 0px;
         z-index: -1;
-        -webkit-transform: translateZ(0);
-        pointer-events: none;
+      
 
 }
 .sonshinetitle{
