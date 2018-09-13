@@ -1424,7 +1424,7 @@ letter-spacing: 4px;
   padding-right: 0px;
   padding-top: 60px;
   text-align: center;
-  font-size: 35px;
+  font-size: 5px;
 
 }
 .sonshinetitle2{
@@ -1447,7 +1447,7 @@ letter-spacing: 4px;
   margin-bottom: 0px;
 }
 .bpic{
-  background: url("mobilehome.jpg");  
+  background: url("mobilehome.jpg");
   background-attachment: scroll;
 
   height: 100vh;
