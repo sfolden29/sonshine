@@ -59,4 +59,6 @@ MOBILE TO DO
 
 hamburgler
 
+make scrolling work again rip
 send button contact form color
+//done

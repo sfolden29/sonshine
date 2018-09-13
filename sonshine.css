@@ -1408,7 +1408,7 @@ letter-spacing: 4px;
   body {
 
     height: 100%;
-    overflow: scroll;
+    overflow: hidden;
 -webkit-overflow-scrolling: touch;
 }
 .sonbody{
