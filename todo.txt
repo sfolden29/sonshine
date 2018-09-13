@@ -16,22 +16,13 @@ Add a disclaimer tag??
 Fb ig icons big
 //deleted icons
 
-fix the weird bit on staff contact forms
 
-add a title to the third box camp page
 
-Add tab icon to all pages
-//???
-
-Make timeline not lag
-//or slow the animation
 
 Figure out paypal api
 //done
 
-Figure out resizing
 
-Mobile lmao
 
 Confirm email pfd/rjw/puredono page
 //COMPLETE (3/3)
@@ -39,12 +30,33 @@ Confirm email pfd/rjw/puredono page
 underline h2 tags in rjw page
 //COMPLETE
 
-test reference + rjw per lap dono google forms
+
 
 add logo to ref pages
 //COMPLETE
 
-wayyyyy too much botpad on lap.html
+
 
 make rjw actually transpo
 //COMPLETE
+
+wayyyyy too much botpad on lap.html
+
+test reference + rjw per lap dono google forms
+
+Make timeline not lag
+//or slow the animation
+
+
+fix the weird bit on staff contact forms
+
+add a title to the third box camp page
+
+Add tab icon to all pages
+//???
+
+MOBILE TO DO
+
+hamburgler
+
+send button contact form color
