@@ -1326,6 +1326,9 @@ letter-spacing: 4px;
   background-color: #d9e1e2;
   background-color: rgba(217,225,226,.7);
 }
+.sleeperAgentBrian{
+  display: none;
+}
 
 .trans2{
   background-color: rgba(217,225,226,.2);
@@ -1451,7 +1454,7 @@ letter-spacing: 4px;
   background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-      
+
         top: 0px;
         bottom: 0px;
         left: 0px;
@@ -1518,11 +1521,29 @@ letter-spacing: 4px;
 }
 .aboutmain{
 
-  width: 10vw;
+  width: 100vw;
 }
 .atitle{
   font-size: 50px;
 }
+.small{
+  font-size: 18px !important;
+}
+.bigger{
+  font-size: 20px;
+
+}
+.sleeperagent{
+  font-size: 18px !important;
+  text-align: center;
+}
+.aboutimg1{
+  display: none;
+}
+.sleeperAgentBrian{
+  display: inline;
+}
+
 
 }
 
