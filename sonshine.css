@@ -273,6 +273,7 @@ margin-bottom: 50px;
 
    background: url("shaypic.jpg")  top center fixed;
    background-size: cover;
+   height: 100vw;
    overflow: auto;
 
    width: 100%;
@@ -1436,7 +1437,7 @@ letter-spacing: 4px;
   background: url("mobilehome.jpg")  top center fixed;
   background-attachment: scroll;
 
-  height: 500px;
+  height: 100vh;
   background-size: cover;
 
 }
