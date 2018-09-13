@@ -1447,7 +1447,7 @@ letter-spacing: 4px;
   margin-bottom: 0px;
 }
 .bpic{
-  background: url("mobilehome.jpg")  top center fixed;
+  background: url("mobilehome.jpg");  
   background-attachment: scroll;
 
   height: 100vh;
