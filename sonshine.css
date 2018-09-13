@@ -1424,7 +1424,7 @@ letter-spacing: 4px;
   padding-right: 0px;
   padding-top: 60px;
   text-align: center;
-  font-size: 5px;
+  font-size: 35px;
 
 }
 .sonshinetitle2{
@@ -1451,8 +1451,11 @@ letter-spacing: 4px;
   background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-
-
+      
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
         z-index: -1;
 
 
