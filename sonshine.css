@@ -1405,6 +1405,14 @@ letter-spacing: 4px;
 
     overflow-x:hidden !important;
 }
+.sonbody{
+  background: url("shaypic.jpg")  top center;
+  background-size: cover;
+  overflow: auto;
+
+  width: 100%;
+
+}
 .sonshinetitle{
   padding-left: 0px;
   padding-right: 0px;
