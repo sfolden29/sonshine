@@ -9,9 +9,9 @@ Make the youtube video not skip
 //cant actually remember what this is about lol
 
 Fix the weird white bar on the right when u scroll
-//ON EVERY PAGE
+//fixed on every page except history
 
-Add my disclaimer tag to all pages bc im sneaky
+Add a disclaimer tag??
 
 Fb ig icons big
 //deleted icons
@@ -27,6 +27,7 @@ Make timeline not lag
 //or slow the animation
 
 Figure out paypal api
+//done
 
 Figure out resizing
 
