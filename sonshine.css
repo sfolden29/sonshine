@@ -1525,20 +1525,8 @@ letter-spacing: 4px;
 }
 .aboutmain{
 
-  background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-
-        top: 0px;
-        bottom: 0px;
-        left: 0px;
-        right: 0px;
-        z-index: -1;
-
-
-  height: 80vh;
   background-size: cover;
-
+  width:100%;
 }
 .atitle{
   font-size: 50px;
