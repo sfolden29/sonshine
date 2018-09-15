@@ -1525,7 +1525,7 @@ letter-spacing: 4px;
 }
 .aboutmain{
 
-  background-size: cover;
+  background-size: cover !important;
   width:100%;
 }
 .atitle{
