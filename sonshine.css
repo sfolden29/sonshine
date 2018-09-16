@@ -1525,12 +1525,12 @@ letter-spacing: 4px;
 }
 .aboutmain{
 
-  background-size: 100vw !important;
+  background-size: 200vw !important;
   width:100%;
   height: 100vw !important;
 }
 .atitle{
-  font-size: 5px;
+  font-size: 50px;
 }
 .small{
   font-size: 18px !important;
