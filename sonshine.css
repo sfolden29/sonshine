@@ -1408,7 +1408,7 @@ letter-spacing: 4px;
   body {
 
     height: 100%;
-    overflow: hidden;
+
 -webkit-overflow-scrolling: touch;
 }
 .sonbody{
@@ -1525,15 +1525,16 @@ letter-spacing: 4px;
 }
 .aboutmain{
 
-  background-size: auto 80% !important;
+  background-size: 200% 80vh !important;
 
-  height: 80vh !important;
+  height: 80vh;
+  background-attachment: initial;
 }
 .aboutmaininner{
   overflow: hidden;
 }
 .atitle{
-  font-size: 5px;
+  font-size: 24px;
 }
 .small{
   font-size: 18px !important;
