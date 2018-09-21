@@ -1410,6 +1410,7 @@ letter-spacing: 4px;
     height: 100%;
 
 -webkit-overflow-scrolling: touch;
+overflow: scroll;
 }
 .sonbody{
   background: url("shaypic.jpg")  top center;
@@ -1523,6 +1524,17 @@ letter-spacing: 4px;
   margin-top: 20px;
   background-color: white;
 }
+.staffmain{
+  background-size: 100% 80vh !important;
+
+  height: 80vh;
+  background-attachment: initial;
+  overflow: auto;
+
+
+
+}
+
 .aboutmain{
 
   background-size: 200% 80vh !important;
