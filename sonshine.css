@@ -82,6 +82,23 @@
   }
 }
 
+/*
+@media screen and (max-width: 1250px){
+  .leftstaff{
+    font-size: 15px !important;
+
+  }
+  .centerstaff{
+    font-size: 15px !important;
+  }
+  .rightstaff{
+    font-size: 15px !important;
+  }
+
+
+}
+*/
+
 @media screen and (max-width: 900px) {
   .timeline ul li div {
     width: 250px;
@@ -1281,6 +1298,7 @@ color: #DCDCDC
 .timeline ul li.in-view::after {
   background: #5EA1E5;
 }
+@med
 .linkcol6{
   color: #DCDCDC;
 }
