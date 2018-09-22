@@ -327,7 +327,7 @@
   background-blend-mode: multiply;
 }
 .background-tintpz {
-  background-color: rgba(256,256 ,256,.55); // Tint color
+  background-color: rgba(256,256 ,256,.6); // Tint color
   background-blend-mode: multiply;
 }
 .background-tintp {
@@ -538,8 +538,13 @@
   letter-spacing: 7px;
   font-family: 'Raleway', sans-serif;
   font-weight: 1000;
-  padding-bottom: 40px;
 
+
+
+
+}
+.hback{
+  background: url("historysplash3.jpg");
 }
 .alumsubtext{
   padding-left: 60px;
@@ -1187,11 +1192,15 @@ body{
   width: 400px;
   padding: 15px;
   /*
-  background: #5EA1E5;
+  background: #707070;
+color: #DCDCDC
   color: #2C2D2F;
   */
-  background: #707070;
-  color: #DCDCDC
+
+  background: #5EA1E5;
+  color: #2C2D2F;
+
+
 }
 
 .timeline ul li div::before {
@@ -1211,7 +1220,7 @@ body{
 .timeline ul li:nth-child(odd) div::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent #707070 transparent transparent;
+  border-color: transparent #5EA1E5 transparent transparent;
 }
 .bpic{
 
@@ -1261,7 +1270,7 @@ body{
 .timeline ul li:nth-child(even) div::before {
   right: -15px;
   border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent #707070;
+  border-color: transparent transparent transparent #5EA1E5;
 }
 
 .timeline ul li::after {
@@ -1270,7 +1279,13 @@ body{
 }
 
 .timeline ul li.in-view::after {
-  background: #404040;
+  background: #5EA1E5;
+}
+.linkcol6{
+  color: #DCDCDC;
+}
+.linkco6{
+  color: #DCDCDC;
 }
 
 .timeline ul li div {

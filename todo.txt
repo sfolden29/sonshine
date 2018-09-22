@@ -47,6 +47,8 @@ test reference + rjw per lap dono google forms
 Make timeline not lag
 //or slow the animation
 
+fix the ellipsis on first tl box
+
 
 fix the weird bit on staff contact forms
 
