@@ -172,6 +172,7 @@
   border-right-style: solid;
   padding-right: 15px;
 
+
 }
 
 .centerstaff{
@@ -757,6 +758,9 @@ hr {
   text-align: left;
   padding-top: 65px;
 
+}
+.mobbold{
+  font-weight: bold;
 }
 
 .biggreen{
@@ -1474,12 +1478,27 @@ body{
     color: black;
     border-bottom: 2px solid black;
   }
+  .mobcent{
+    text-align: center;
+  }
+  .staffsizead{
+    font-size: 18px !important;
+
+  }
   .leftstaff{
     border: none;
+    font-size: 18px !important;
+    text-align: center;
 
+  }
+  .rightstaff{
+    font-size: 18px !important;
+    text-align: center;
   }
   .centerstaff{
     border: none;
+    font-size: 18px !important;
+    text-align: center;
   }
 
 
@@ -1553,6 +1572,10 @@ body{
     background-size: cover;
 
 
+  }
+  .staffmess2{
+    padding-top: 100px;
+    padding-bottom: 700px;
   }
   .background-tint-sleep{
 
