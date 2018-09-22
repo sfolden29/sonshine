@@ -1474,6 +1474,13 @@ body{
     color: black;
     border-bottom: 2px solid black;
   }
+  .leftstaff{
+    border: none;
+
+  }
+  .centerstaff{
+    border: none;
+  }
 
 
   .bigboytext{
@@ -1544,7 +1551,6 @@ body{
 
     height: 100vh;
     background-size: cover;
-
 
 
   }
