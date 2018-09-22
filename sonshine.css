@@ -327,7 +327,7 @@
   background-blend-mode: multiply;
 }
 .background-tintpz {
-  background-color: rgba(256,256 ,256,.45); // Tint color
+  background-color: rgba(256,256 ,256,.55); // Tint color
   background-blend-mode: multiply;
 }
 .background-tintp {
@@ -1494,6 +1494,7 @@ body{
     border: none;
     font-size: 18px !important;
     text-align: center;
+
 
   }
   .rightstaff{
