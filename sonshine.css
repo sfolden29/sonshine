@@ -1270,7 +1270,7 @@ color: #DCDCDC
   line-height: 40px;
   padding-bottom: 100px;
   margin-bottom: 0px;
-  padding-bottom: 600px;
+  padding-bottom: 700px;
 
 
   font-size: 30px;
@@ -1614,7 +1614,7 @@ color: #DCDCDC
   }
   .staffmess2{
     padding-top: 100px;
-    padding-bottom: 700px;
+    padding-bottom: 800px !important;
     overflow: hidden;
   }
   .background-tint-sleep{
@@ -1664,6 +1664,28 @@ color: #DCDCDC
   }
   .sleeperAgentBrian{
     display: inline;
+  }
+
+  .suppmess{
+    font-size: 35px;
+    padding-top: 100px;
+  }
+  .contribute{
+    font-size: 30px;
+    padding-top: 0px;
+  }
+  .con2{
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  .suppmess4{
+    font-size: 16px;
+    padding-top: 45px;
+    line-height: 22px;
+    padding-bottom: 30px;
+  }
+  .pfdtext{
+    padding-bottom: 40px;
   }
 
 
