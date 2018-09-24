@@ -2,6 +2,8 @@ THINGS I STILL GOTTA fix
 
 Make hamburger on the right u nerdo
 
+columns dont stay as columns when you resize page on support and staff
+
 The letters on the slideshow stay low if the page is resized rip
 //i think this is actually good bc i deleted everything
 
@@ -12,6 +14,8 @@ Fix the weird white bar on the right when u scroll
 //fixed on every page except history
 
 Add a disclaimer tag??
+
+
 
 Fb ig icons big
 //deleted icons
@@ -59,12 +63,19 @@ Add tab icon to all pages
 
 MOBILE TO DO
 
+  -> camps, contact, history, pfd, rjw, donate, alumni
+  -> support picture "fixed: center";
+
 hamburgler
 
 fix overscrolling
+//no idea what this is talking aboutimg1
+
+
 
 
 make scrolling work again rip
 //50%
+//done
 send button contact form color
 //done

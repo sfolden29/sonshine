@@ -1687,6 +1687,35 @@ color: #DCDCDC
   .pfdtext{
     padding-bottom: 40px;
   }
+  .pfdmess{
+    font-size: 36px;
+  }
+  .pfdmess2{
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .pfdmess3{
+    font-size: 18px !important;
+  }
+  .donatemess{
+    font-size: 45px;
+  }
+  .donatemess2{
+    font-size: 35px;
+    padding-top: 60px;
+    padding-left: 10px;
+  }
+  .donatemess4{
+    font-size: 35px;
+    padding-top: 60px;
+    padding-left: 10px;
+  }
+  .donatemess7{
+    font-size: 16px;
+  }
+  .bpadd{
+    padding-bottom: 35px;
+  }
 
 
 
