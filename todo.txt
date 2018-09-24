@@ -65,6 +65,8 @@ MOBILE TO DO
 
   -> camps, contact, history, pfd, rjw, donate, alumni
   -> support picture "fixed: center";
+  //finished
+  //donate done
 
 hamburgler
 
