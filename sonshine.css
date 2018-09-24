@@ -1642,6 +1642,13 @@ color: #DCDCDC
     height: 80vh;
     background-attachment: initial;
   }
+  .suppmain{
+    background-size: auto 100vh !important;
+
+    height: 100vh;
+    background-attachment: initial;
+    overflow: hidden;
+  }
   .aboutmaininner{
     overflow: hidden;
   }
@@ -1667,8 +1674,8 @@ color: #DCDCDC
   }
 
   .suppmess{
-    font-size: 35px;
-    padding-top: 100px;
+    font-size: 45px;
+    padding-top: 250px;
   }
   .contribute{
     font-size: 30px;
