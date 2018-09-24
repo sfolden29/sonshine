@@ -1698,7 +1698,7 @@ color: #DCDCDC
     font-size: 18px !important;
   }
   .donatemess{
-    font-size: 10px;
+    font-size: 45px;
     overflow: hidden;
     padding-bottom: 700px;
   }
@@ -1708,19 +1708,10 @@ color: #DCDCDC
     padding-left: 10px;
   }
   .donatemain{
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    z-index: -1;
-
+    background-size: auto 100vh !important;
 
     height: 100vh;
-    background-size: cover;
+    background-attachment: initial;
     overflow: hidden;
 
   }
