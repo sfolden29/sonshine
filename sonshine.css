@@ -1450,8 +1450,16 @@ color: #DCDCDC
     -webkit-overflow-scrolling: touch;
     overflow: scroll;
   }
+  .rjwmain{
+    background-size: auto 100vh !important;
+
+    height: 100vh;
+    background-attachment: initial;
+
+  }
   .rjwmess{
     font-size: 40px;
+
   }
   .sonbody{
     background: url("shaypic.jpg")  top center;
