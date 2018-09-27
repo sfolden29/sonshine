@@ -1455,7 +1455,7 @@ color: #DCDCDC
 
     height: 100vh;
     background-attachment: initial;
-    overflow: hidden;
+    overflow: auto;
 
 
   }
