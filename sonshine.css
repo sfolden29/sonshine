@@ -933,7 +933,7 @@ hr {
   overflow: auto;
   width: 100%;
   margin-bottom: 0px;
-  overflow: auto;
+
 }
 .nomar{
   margin-bottom: 0px;
@@ -1455,6 +1455,8 @@ color: #DCDCDC
 
     height: 100vh;
     background-attachment: initial;
+    overflow: hidden;
+
 
   }
   .rjwmess{
@@ -1518,6 +1520,9 @@ color: #DCDCDC
     height: 80vh;
     background-size: cover;
 
+  }
+  .oflowfix{
+    overflow: auto;
   }
   .mobileLinkSleeper{
     color: black;
