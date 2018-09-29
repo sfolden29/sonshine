@@ -351,6 +351,10 @@
   background-color: rgba(256,256 ,256,.45); // Tint color
   background-blend-mode: multiply;
 }
+.background-tintppp {
+  background-color: rgba(256,256 ,256,.20); // Tint color
+  background-blend-mode: multiply;
+}
 .background-tintd {
   background-color: rgba(0,0 ,0,.3); // Tint color
   background-blend-mode: multiply;
@@ -950,6 +954,17 @@ hr {
   width: 100%;
 
 }
+.sonshinetitle22{
+  font-size: 90px;
+  color: #2C2D2F;
+  margin-bottom: 0px;
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 1000;
+
+
+  padding-top: 70px;
+}
 
 .sonshinetitle{
   font-size: 120px;
@@ -969,6 +984,19 @@ hr {
   font-family: 'Raleway',sans-serif;
   font-weight: 1000;
   letter-spacing: 8px;
+  margin-bottom: 0px;
+}
+.sonshinetitle23{
+  font-size: 30px;
+  padding-top: 30px;
+  color: #2C2D2F;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 100px;
+  margin-top: 0px;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 1000;
+  letter-spacing: 2px;
   margin-bottom: 0px;
 }
 
@@ -1321,6 +1349,15 @@ color: #DCDCDC
   margin-bottom: 0px;
 
 }
+.newbutt2{
+  text-align: center;
+  margin-left: 20px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 20px;
+  width: 80px;
+  background-color: white;
+}
 .contactmain{
   background-color: #3E4357;
 
@@ -1353,6 +1390,15 @@ color: #DCDCDC
   width: 500px;
   padding-left: 100px;
   padding-right: 0px;
+  margin-right: 0px;
+
+}
+.bugform{
+  width: auto;
+  align-items: center;
+  text-align: center;
+  padding-left: 25vw;
+  padding-right: 25vw;
   margin-right: 0px;
 
 }
