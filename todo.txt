@@ -63,7 +63,9 @@ Add tab icon to all pages
 
 MOBILE TO DO
 
-  -> camps, contact, history, pfd, rjw, donate, alumni
+  -> camps, contact, history, pfd, , alumni
+
+
   -> support picture "fixed: center";
   //finished
   //donate done
