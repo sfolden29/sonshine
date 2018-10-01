@@ -1587,7 +1587,7 @@ color: #DCDCDC
     font-size: 30px;
   }
   .newbutt2{
-    padding-bottom: 100px;
+    margin-bottom: 100px;
   }
 
   .welcomemess2{
@@ -1598,10 +1598,7 @@ color: #DCDCDC
     font-weight: 400;
     margin-bottom: 0px;
   }
-  .background-tintppp {
-    background-color: rgba(256,256 ,256,.20); // Tint color
-    background-blend-mode: multiply;
-  }
+
   .bpic{
     background: url("mobilehome.jpg");
     background-position: center;
