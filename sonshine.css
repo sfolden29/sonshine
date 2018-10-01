@@ -1470,6 +1470,7 @@ color: #DCDCDC
 
 
 
+
 .carousel-indicators li.active{
 
   width: 30px;
@@ -1493,6 +1494,59 @@ color: #DCDCDC
 
 .topspace{
   padding-top: 60px;
+}
+@media screen and (max-width: 1100px) {
+  .campPic1{
+    width: 350px;
+    height: 350px;
+  }
+  .campPic2{
+    width: 350px;
+    height: 350px;
+  }
+  .campPic3{
+    width: 350px;
+    height: 350px;
+  }
+  .campsub{
+    padding-top: 0px;
+    font-size: 25px;
+  }
+  .campsubtext{
+    font-size: 15px;
+  }
+  .campsub2{
+    padding-top: 20px;
+    font-size: 25px;
+    padding-left: 140px;
+  }
+  .campsubtext2{
+    padding-left: 140px;
+    font-size: 12px;
+  }
+  .campsub3{
+    padding-top: 20px;
+    font-size: 25px;
+    padding-left: 140px;
+  }
+  .campsubtext3{
+    padding-top: 80px;
+    font-size: 15px;
+  }
+  .campPic4{
+    width: 350px;
+    height: 350px;
+  }
+  .campsub4{
+    padding-top: 20px;
+    font-size: 25px;
+    padding-left: 140px;
+  }
+  .campsubtext4{
+    padding-left: 140px;
+    font-size: 20px;
+  }
+
 }
 
 @media screen and (max-width: 990px) {
@@ -1589,6 +1643,7 @@ color: #DCDCDC
   .newbutt2{
     margin-bottom: 100px;
   }
+
 
   .welcomemess2{
     font-size: 15px;
