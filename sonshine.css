@@ -295,6 +295,15 @@
 
   width: 100%;
 }
+.sonbody22{
+
+  background: url("shaypic.jpg")  top center fixed;
+  background-size: cover !important;
+  overflow: auto;
+  height: 100vh;
+
+
+}
 .smalltop{
   padding-top: 10px;
 }
@@ -351,10 +360,7 @@
   background-color: rgba(256,256 ,256,.45); // Tint color
   background-blend-mode: multiply;
 }
-.background-tintppp {
-  background-color: rgba(256,256 ,256,.20); // Tint color
-  background-blend-mode: multiply;
-}
+
 .background-tintd {
   background-color: rgba(0,0 ,0,.3); // Tint color
   background-blend-mode: multiply;
@@ -1073,11 +1079,10 @@ hr {
 .nma{
   margin-right: 0px;
 }
-.kill{
-  margin: 0; height: 100%; overflow: hidden;
-}
+
 .newbutt2{
-  margin-bottom: 0px;
+  margin-bottom: 200px;
+
 }
 body{
   margin-right: 0px;
@@ -1534,6 +1539,20 @@ color: #DCDCDC
 
 
   }
+  .sonbody22{
+    background: url("shaypic.jpg")  top center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+
+
+  }
   .sonshinetitle{
     padding-left: 0px;
     padding-right: 0px;
@@ -1578,6 +1597,10 @@ color: #DCDCDC
     padding-right: 20px;
     font-weight: 400;
     margin-bottom: 0px;
+  }
+  .background-tintppp {
+    background-color: rgba(256,256 ,256,.20); // Tint color
+    background-blend-mode: multiply;
   }
   .bpic{
     background: url("mobilehome.jpg");
