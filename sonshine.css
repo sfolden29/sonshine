@@ -1495,6 +1495,18 @@ color: #DCDCDC
 .topspace{
   padding-top: 60px;
 }
+@media screen and (max-width: 1200px) {
+  .campsubtext2{
+    padding-left: 0px;
+  }
+  .campsub2{
+    padding-top: 20px;
+    font-size: 25px;
+    padding-left: 0px;
+  }
+
+}
+
 @media screen and (max-width: 1100px) {
   .campPic1{
     width: 350px;
@@ -1511,7 +1523,7 @@ color: #DCDCDC
   .campsub{
     padding-top: 0px;
     font-size: 25px;
-    color: red;
+    
   }
   .campsubtext{
     font-size: 15px;
@@ -1546,6 +1558,28 @@ color: #DCDCDC
   .campsubtext4{
     padding-left: 140px;
     font-size: 20px;
+  }
+
+}
+@media screen and (max-width: 991px) {
+  .campsubtext2{
+    padding-left: 30px;
+  }
+  .campsub2{
+    padding-top: 20px;
+
+    padding-left: 30px;
+  }
+  .campsubtext4{
+    padding-left: 30px;
+  }
+  .campsub4{
+    padding-top: 20px;
+
+    padding-left: 30px;
+  }
+  .campsubtext{
+    padding-right: 0px;
   }
 
 }
