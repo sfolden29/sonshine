@@ -360,6 +360,10 @@
   background-color: rgba(256,256 ,256,.45); // Tint color
   background-blend-mode: multiply;
 }
+.background-tintppppp {
+  background-color: rgba(256,256 ,256,.2); // Tint color
+  background-blend-mode: multiply;
+}
 
 .background-tintd {
   background-color: rgba(0,0 ,0,.3); // Tint color
@@ -1292,9 +1296,6 @@ color: #DCDCDC
   background-size: cover;
 }
 .bigboytext{
-
-
-
   text-align: center;
   width: 100%;
 
@@ -1495,6 +1496,36 @@ color: #DCDCDC
 .topspace{
   padding-top: 60px;
 }
+
+@media screen and (max-width: 991px){
+  .sonmin{
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+
+  }
+  .sonadd{
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .form-group{
+
+    text-align: center !important;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 40px;
+    padding-right: 0px;
+    width: 90vw;
+  }
+  .newbutt{
+    margin-left: 0px;
+  }
+}
+
+
+
 @media screen and (max-width: 1199px){
   .alumsub{
 
@@ -1617,20 +1648,45 @@ color: #DCDCDC
 
   }
 }
-@media screen and(max-width: 991px) {
-  #alumPic11{
-      height: 100px;
-      width: 400px;
+
+@media screen and (max-width: 991px) {
+  .alumsubtext{
+    padding-left: 20px;
+    padding-top: 20px;
+
+
+  }
+  .alumsub2{
+    padding-left: 30px;
+    padding-top: 15px;
+  }
+  .alumsubtext2{
+    padding-left: 30px;
+    padding-top: 0px;
+
+  }
+  #impfont3{
+    font-size: 13px;
+  }
+  .alumsub{
+    padding-top: 60px;
+    padding-left: 30px;
+  }
+  #impfont2{
+    font-size: 15px;
+  }
+  .alumPic1{
+    width: 350px;
+    height: 350px;
+    padding-left: 0px;
+    margin-left: 0px;
   }
   .alumPic2{
-      height: 400px;
-      width: 400px;
-  }
-  .alumsubtext{
-    color: red !important;
+    width: 350px;
+    height: 350px;
+    padding-left: 0px;
 
   }
-
 }
 
 @media screen and (max-width: 600px) {
@@ -1806,6 +1862,7 @@ color: #DCDCDC
     margin-bottom: 20px;
   }
   .conmain{
+    text-align: center;
     font-size: 26px;
     padding-left: 15px;
     padding-right: 15px;
