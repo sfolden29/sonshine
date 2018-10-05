@@ -28,13 +28,17 @@
 
 .alumPic1{
   margin-left: 50px;
-
+  padding-right: 0px;
   margin-top: 60px;
+  margin-right: 0px;
 }
 .alumPic2{
 
-  margin-right: 10px;
+  margin-right: 0px;
 
+}
+.nmr{
+  margin-right: 0px;
 }
 
 
@@ -360,6 +364,10 @@
   background-color: rgba(256,256 ,256,.45); // Tint color
   background-blend-mode: multiply;
 }
+.background-tintppq {
+  background-color: rgba(256,256 ,256,.25); // Tint color
+  background-blend-mode: multiply;
+}
 .background-tintppppp {
   background-color: rgba(256,256 ,256,.2); // Tint color
   background-blend-mode: multiply;
@@ -579,16 +587,19 @@
   background: url("historysplash3.jpg");
 }
 .alumsubtext{
-  padding-left: 60px;
+  padding-left: 40px;
   padding-top: 30px;
   font-size: 14px;
   padding-right: 100px;
+    padding-bottom: 50px;
 }
 .alumsubtext2{
   padding-left: 60px;
   padding-top: 150px;
   font-size: 14px;
   padding-right: 100px;
+
+
 }
 
 
@@ -673,14 +684,17 @@
   padding-top: 50px;
   margin-top: 0px;
 
-}
 
+}
+.mrssimp{
+  padding-right: 0px;
+}
 .alumsub{
   font-family: 'Raleway', sans-serif;
   font-weight: 1000;
   font-size: 34px;
   letter-spacing: 5px;
-  padding-left: 60px;
+  padding-left: 40px;
   padding-bottom: 0px;
   margin-bottom: 0px;
   padding-top: 100px;
@@ -1349,7 +1363,10 @@ color: #DCDCDC
 .linkco6{
   color: #DCDCDC;
 }
-
+.pad0{
+  padding-left: 0px;
+  padding-right: 0px;
+}
 .timeline ul li div {
   visibility: hidden;
   opacity: 0;
@@ -1536,15 +1553,15 @@ color: #DCDCDC
 
   }
   .alumsub2{
-    padding-left: 60px;
+    padding-left: 30px;
   }
   .alumsubtext2{
-    padding-left: 60px;
+    padding-left: 30px;
 
   }
   .alumPic2{
   margin-left: 0px;
-  padding-left: 40px;
+  padding-left: 0px;
   }
   .alumpic{
     height: 400px;
@@ -1653,6 +1670,7 @@ color: #DCDCDC
   .alumsubtext{
     padding-left: 20px;
     padding-top: 20px;
+    padding-bottom: 30px;
 
 
   }
@@ -1688,6 +1706,49 @@ color: #DCDCDC
 
   }
 }
+@media screen and (max-width: 768px) {
+
+  .alummain{
+    background: url("shasta1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+
+
+    height: 100vh;
+    background-size: cover;
+  }
+
+.alumPic1{
+  padding-left: 5vw;
+  height: 90vw;
+  width: 90vw;
+}
+.alumPic2{
+  padding-left: 5vw;
+  height: 90vw;
+  width: 90vw;
+}
+.alummess{
+  font-size: 42px;
+  text-align: center;
+}
+.alummess2{
+  font-size: 25px;
+  padding-top: 50vh;
+}
+.alummess3{
+  font-size: 14px;
+  line-height: normal;
+}
+}
+
 
 @media screen and (max-width: 600px) {
   body {
@@ -1706,6 +1767,11 @@ color: #DCDCDC
 
 
 
+  }
+
+  .makeRight{
+    padding-left: 40px;
+    padding-bottom: 50px;
   }
   .rjwmess{
     font-size: 40px;
@@ -1913,6 +1979,24 @@ color: #DCDCDC
 
 
   }
+  .pfdmain{
+    background: url("pfd.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+
+
+    height: 100vh;
+    background-size: cover;
+
+
+  }
   .bugform{
     margin-left: 15vw;
     margin-right: 15vw;
@@ -2015,6 +2099,9 @@ color: #DCDCDC
     overflow: hidden;
     padding-bottom: 700px;
   }
+  .column{
+
+  }
   .donatemess2{
     font-size: 35px;
     padding-top: 60px;
@@ -2038,6 +2125,28 @@ color: #DCDCDC
   }
   .bpadd{
     padding-bottom: 35px;
+  }
+
+  .alumPic1{
+    padding-left: 5vw;
+    height: 90vw;
+    width: 90vw;
+  }
+  .alumPic2{
+    padding-left: 5vw;
+    height: 90vw;
+    width: 90vw;
+  }
+  .alummess{
+    font-size: 42px;
+  }
+  .alummess2{
+    font-size: 25px;
+    padding-top: 50vh;
+  }
+  .alummess3{
+    font-size: 14px;
+    line-height: normal;
   }
 
 
