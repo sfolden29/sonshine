@@ -734,7 +734,7 @@ hr {
 }
 
 .alumsubtext2{
-  padding-left: 130px;
+  padding-left: 120px;
   margin-top: 0px;
   padding-top: 10px;
   font-size: 14px;
@@ -1370,6 +1370,8 @@ color: #DCDCDC
   padding-left: 0px;
   padding-right: 0px;
 }
+
+
 .timeline ul li div {
   visibility: hidden;
   opacity: 0;
@@ -1421,6 +1423,10 @@ color: #DCDCDC
 }
 .conpad2{
   padding-bottom: 50px;
+}
+.alumsub2{
+  padding-left: 120px;
+  padding-top: 30px;
 }
 .form-group{
   width: 500px;
@@ -1924,6 +1930,10 @@ color: #DCDCDC
     padding-right: 20px;
     font-weight: 400;
     margin-bottom: 0px;
+  }
+  .alummess3{
+    font-weight: 400;
+    
   }
 
   .bpic{
