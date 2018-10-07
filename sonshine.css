@@ -217,6 +217,9 @@
 #impfont2{
   font-size: 18px;
 }
+#impfont4{
+  font-size: 18px;
+}
 
 #impfont{
   font-size: 18px;
@@ -1513,6 +1516,12 @@ color: #DCDCDC
 .topspace{
   padding-top: 60px;
 }
+@media screen and (max-width: 1040px){
+  .form-control{
+    width: 80%
+  }
+}
+
 
 @media screen and (max-width: 991px){
   .sonmin{
@@ -1532,9 +1541,13 @@ color: #DCDCDC
     text-align: center !important;
     margin-left: 0px;
     margin-right: 0px;
+    display: block;
     padding-left: 40px;
     padding-right: 0px;
     width: 90vw;
+  }
+  .form-control{
+    width: 80vw;
   }
   .newbutt{
     margin-left: 0px;
@@ -1675,11 +1688,11 @@ color: #DCDCDC
 
   }
   .alumsub2{
-    padding-left: 30px;
+    padding-left: 0px;
     padding-top: 15px;
   }
   .alumsubtext2{
-    padding-left: 30px;
+    padding-left: 0px;
     padding-top: 0px;
 
   }
@@ -1692,6 +1705,9 @@ color: #DCDCDC
   }
   #impfont2{
     font-size: 15px;
+  }
+  #impfont4{
+    font-size: 13px;
   }
   .alumPic1{
     width: 350px;
@@ -1706,7 +1722,7 @@ color: #DCDCDC
 
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 
   .alummain{
     background: url("shasta1.jpg");
@@ -1723,12 +1739,33 @@ color: #DCDCDC
 
     height: 100vh;
     background-size: cover;
+    overflow: hidden;
+    padding-bottom: 0px;
   }
-
+  .alummess2{
+    display: none;
+  }
+  .background-tintppppp {
+    background-color: rgba(256,256 ,256,.2); // Tint color
+    background-blend-mode: multiply;
+  }
+  .alummess{
+    padding-top: 30vh;
+    padding-bottom: 70vh;
+    overflow: hidden;
+  }
 .alumPic1{
-  padding-left: 5vw;
-  height: 90vw;
-  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  float: none !important;
+  display: block;
+  width: 90%;
+  height: 90%;
+
+
+
+
+
 }
 .alumPic2{
   padding-left: 5vw;
@@ -1747,6 +1784,18 @@ color: #DCDCDC
   font-size: 14px;
   line-height: normal;
 }
+  .alumsub2{
+    padding-top: 40px;
+    padding-left: 30px;
+    font-size: 20px;
+  }
+  .alumsubtext2{
+    padding-left: 30px;
+  }
+  #impfont4{
+    font-size: 15px;
+  }
+
 }
 
 
@@ -1767,6 +1816,31 @@ color: #DCDCDC
 
 
 
+  }
+  #impfont3{
+    font-size: 20px;
+  }
+  .alumsubtext{
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+
+  }
+  .alumsubtext2{
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+
+  }
+  .alumsub{
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 0px;
+
+  }
+  .alumsub2{
+    text-align: center;
+    padding-left: 0px;
   }
 
   .makeRight{
@@ -1935,7 +2009,8 @@ color: #DCDCDC
     padding-top: 25px;
   }
   .sonmin{
-    padding-left: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-top: 40px;
     text-align: center;
   }
@@ -1944,16 +2019,19 @@ color: #DCDCDC
   }
   .sonadd{
     text-align: center;
-    padding-left: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-left: 0px;
     padding-bottom: 0px;
     margin-bottom: 0px;
     font-size: 15px;
   }
   .form-group{
-    padding-left: 20px;
-    margin-left: 20px;
+    padding-left: 0px;
+    margin: auto;
     width: 85%;
     text-align: center;
+    padding-bottom: 20px;
   }
   .newbutt{
     text-align: center;
@@ -2128,9 +2206,7 @@ color: #DCDCDC
   }
 
   .alumPic1{
-    padding-left: 5vw;
-    height: 90vw;
-    width: 90vw;
+
   }
   .alumPic2{
     padding-left: 5vw;
