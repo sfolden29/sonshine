@@ -148,6 +148,26 @@
   margin-bottom: 60px;
 
 }
+.addLeftPad3{
+  background-color: #87A1A4;
+  padding-left: 50px;
+  margin-left: 150px;
+  margin-top: 0px;
+
+  padding-bottom: 140px;
+  margin-bottom: 60px;
+
+}
+.worldgreen{
+    background-color: #d9e1e2;
+
+}
+.direven{
+  padding-bottom: 11px;
+}
+
+
+}
 .concontainer{
   background-color: #d9e1e2;
   padding-top: 0px;
@@ -747,7 +767,7 @@ hr {
   letter-spacing: 7px;
   padding-left: 124px;
   padding-bottom: 0px;
-  padding-top: 50px;
+  padding-top: 150px;
   margin-top: 0px;
 
 }
@@ -1177,9 +1197,12 @@ body{
   letter-spacing: 6px;
   font-kerning: none;
   font-family: 'Raleway', sans-serif;
+  line-height: 100px;
   padding-bottom: 0px;
   margin-bottom: 0px;
+  margin-top: 0px;
 }
+
 .slightlower{
   margin-top: 20px;
 }
@@ -1444,6 +1467,7 @@ color: #DCDCDC
   margin-right: 0px;
 
 }
+
 .sonadd{
   padding-left: 100px;
   color: white;
@@ -1522,6 +1546,14 @@ color: #DCDCDC
 .topspace{
   padding-top: 60px;
 }
+@media screen and (max-width: 1047px){
+  .direven{
+    padding-bottom: 0px;
+  }
+  .direven2{
+    padding-bottom: 15px;
+  }
+}
 @media screen and (max-width: 1040px){
   .form-control{
     width: 80%
@@ -1540,6 +1572,10 @@ color: #DCDCDC
     text-align: center;
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .addLeftPad3{
+    margin-left: 50px;
   }
 
   .form-group{
@@ -1813,6 +1849,19 @@ color: #DCDCDC
     -webkit-overflow-scrolling: touch;
     overflow: scroll;
   }
+
+  .addLeftPad3{
+
+      background-color: #87A1A4;
+      padding-left: 0px;
+      margin-left: 0px;
+      margin-top: 0px;
+
+
+      margin-bottom: 60px;
+
+
+  }
   .rjwmain{
     background-size: auto 100vh !important;
 
@@ -1933,7 +1982,8 @@ color: #DCDCDC
   }
   .alummess3{
     font-weight: 400;
-    
+    font-style: oblique;
+
   }
 
   .bpic{
@@ -2232,7 +2282,7 @@ color: #DCDCDC
   }
   .alummess3{
     font-size: 14px;
-    line-height: normal;
+    line-height: 17px;
   }
 
 
