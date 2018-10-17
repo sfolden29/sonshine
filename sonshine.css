@@ -1222,6 +1222,13 @@ body{
   margin-top: 0px;
 }
 
+.jumbosim{
+  padding-left: 60px;
+  padding-right: 60px;
+  background-color: #d9e1e2;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 .slightlower{
   margin-top: 20px;
 }
@@ -1714,8 +1721,8 @@ color: #DCDCDC
     height: 350px;
   }
   .campPic5{
-    width: 350px;
-    height: 350px;
+    width: 380px;
+    height: 380px;
   }
   .campsub{
     padding-top: 20px;
@@ -1731,7 +1738,7 @@ color: #DCDCDC
   }
   .campsubtext2{
     padding-left: 125px;
-    font-size: 12px;
+    font-size: 13px;
   }
   .campsub3{
     padding-top: 20px;
@@ -1758,6 +1765,7 @@ color: #DCDCDC
   .campsub4{
     padding-top: 60px;
   }
+
 
 }
 
@@ -1792,6 +1800,14 @@ color: #DCDCDC
   }
   .campsub4{
     padding-top: 70px;
+  }
+  .camperino{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .smalltop{
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
 
