@@ -1878,6 +1878,33 @@ color: #DCDCDC
     padding-left: 0px;
     padding-right: 0px;
   }
+  .darkinv{
+    color:#4F7276;
+
+
+
+  }
+  .darkinvback{
+    background-color: rgb(217, 225, 226);
+  }
+  .lightinv{
+    color: white;
+
+  }
+
+  .reducepadcon{
+
+    padding-top: 20px;
+
+  }
+
+  .increasepadcon{
+    padding-bottom: 40px;
+  }
+
+  .lightinvback{
+    background-color: #87A1A4;
+  }
   .mapmarge{
     margin-bottom: 0px;
   }
