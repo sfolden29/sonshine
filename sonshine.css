@@ -383,6 +383,10 @@
   background-color: rgba(256,256 ,256,.6); // Tint color
   background-blend-mode: multiply;
 }
+.background-tintpzz {
+  background-color: rgba(256,256 ,256,.3); // Tint color
+  background-blend-mode: multiply;
+}
 .background-tintp {
   background-color: rgba(256,256 ,256,.45); // Tint color
   background-blend-mode: multiply;
