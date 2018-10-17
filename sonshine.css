@@ -2114,6 +2114,24 @@ color: #DCDCDC
     overflow: hidden;
     padding-bottom: 0px;
   }
+  .contactmain2{
+    background: url("kenna2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+
+
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+    padding-bottom: 0px;
+  }
   .campmain{
     background: url("campsmain.jpg");
     background-position: center;
