@@ -377,7 +377,7 @@
   text-align: center;
 }
 .background-tint {
-  background-color: rgba(0,0,0,.5); // Tint color
+  background-color: rgba(0,0,0,.3); // Tint color
   background-blend-mode: multiply;
 }
 .background-tintpz {
