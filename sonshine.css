@@ -1077,6 +1077,9 @@ hr {
   padding-left: 100px;
   padding-bottom: 50px;
 }
+.emsleep{
+  display:none;
+}
 .makeRightish{
   padding-left: 60px;
 }
@@ -1186,6 +1189,7 @@ body{
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 30px;
+
 }
 
 .makeLeft{
@@ -1241,15 +1245,28 @@ body{
 
 .map{
   letter-spacing: 4px;
-  padding-top: 80px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: bold;
 }
 .padleft{
   padding-left: 40px;
 }
+.padleftconspec{
+  padding-left: 40px;
+}
+
 
 .darker{
   background-color: #BEBEBE;
   margin-bottom: 0px;
+}
+.mapmarge{
+  margin-bottom: 30px;
+}
+.mapmarge2{
+  margin-bottom: 30px;
 }
 
 .nopad{
@@ -1304,6 +1321,10 @@ color: #DCDCDC
   background: #5EA1E5;
   color: #2C2D2F;
 
+
+}
+.mapSize{
+    width: 80%;
 
 }
 
@@ -1559,7 +1580,16 @@ color: #DCDCDC
     width: 80%
   }
 }
+@media screen and (max-width: 992px){
 
+  .direven{
+    padding-bottom: 0px;
+  }
+  .direven2{
+    padding-bottom: 15px;
+  }
+
+}
 
 @media screen and (max-width: 991px){
   .sonmin{
@@ -1574,9 +1604,7 @@ color: #DCDCDC
     padding-right: 0px;
   }
 
-  .addLeftPad3{
-    margin-left: 50px;
-  }
+
 
   .form-group{
 
@@ -1710,6 +1738,13 @@ color: #DCDCDC
   .campsubtext{
     padding-right: 0px;
   }
+  .direven{
+    padding-bottom: 11px;
+  }
+  .direven2{
+    padding-bottom: 0px;
+  }
+
 
 }
 
@@ -1728,6 +1763,10 @@ color: #DCDCDC
     padding-bottom: 30px;
 
 
+  }
+  .addLeftPad3{
+    margin-left: 50px;
+    padding-left: 50px;
   }
   .alumsub2{
     padding-left: 0px;
@@ -1764,7 +1803,84 @@ color: #DCDCDC
 
   }
 }
+@media screen and (max-width: 847px){
+  .direven{
+    padding-bottom: 0px;
+
+  }
+  .direven2{
+    padding-bottom: 15px;
+
+  }
+  @media screen and (max-width: 847px){
+    .direven{
+      padding-bottom: 0px;
+
+    }
+    .direven2{
+      padding-bottom: 15px;
+
+    }
+
+
+@media screen and (max-width: 810px){
+  .addLeftPad3{
+    margin-left: 50px;
+    padding-left: 40px;
+  }
+  .direven{
+    padding-bottom: 0px;
+
+  }
+  .direven2{
+    padding-bottom: 15px;
+
+  }
+}
 @media screen and (max-width: 767px) {
+
+  .botpadsmall{
+    padding-bottom: 50px;
+  }
+  .nomobmargecon{
+    margin-bottom: 0px;
+  }
+  .eb{
+    padding-bottom: 0px;
+  }
+  .dir{
+    padding-top: 0px;
+  }
+
+  .addLeftPad3{
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+  }
+  .padleftconspec{
+    padding-left: 0px;
+  }
+  .direven{
+    padding-bottom: 0px;
+  }
+  .biggreen{
+    margin-top: 0px;
+  }
+  .worldgreen{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 0px;
+  }
+  .consleep{
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .mapmarge{
+    margin-bottom: 0px;
+  }
 
   .alummain{
     background: url("shasta1.jpg");
@@ -1795,6 +1911,35 @@ color: #DCDCDC
     padding-top: 30vh;
     padding-bottom: 70vh;
     overflow: hidden;
+  }
+  .whitebig{
+    font-size: 30px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+  }
+  .white{
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .white2{
+    padding-left: 5px;
+
+  }
+  .white3{
+    padding-right: 5px;
+  }
+  .biggreen{
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
+  .greencolor{
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 .alumPic1{
   margin-left: auto;
@@ -1858,7 +2003,7 @@ color: #DCDCDC
       margin-top: 0px;
 
 
-      margin-bottom: 60px;
+      margin-bottom: 0px;
 
 
   }
@@ -2288,6 +2433,38 @@ color: #DCDCDC
 
 
 }
+
+@media screen and (max-width: 440px) {
+  .dir{
+    font-size: 36px;
+  }
+
+}
+@media screen and (max-width: 293px) {
+  .dir{
+    font-size: 30px;
+  }
+
+}
+@media screen and (max-width: 400px) {
+  .conmess{
+    font-size: 45px;
+  }
+
+}
+@media screen and (max-width: 285px) {
+  .conmess{
+    font-size: 35px;
+  }
+
+}
+@media screen and (max-width: 300px) {
+  .emsleep{
+    display: inline;
+  }
+
+}
+
 
 
 /*
