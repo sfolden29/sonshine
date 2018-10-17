@@ -45,6 +45,9 @@
 .campPic3{
   float: left;
 }
+.campPic5{
+  float: left;
+}
 
 .campPic4{
   float: left;
@@ -147,6 +150,13 @@
   padding-bottom: 140px;
   margin-bottom: 60px;
 
+}
+.neymarlm{
+  padding-left: 0px;
+
+}
+.neymarrm{
+  padding-right: 0px;
 }
 .addLeftPad3{
   background-color: #87A1A4;
@@ -770,9 +780,9 @@ hr {
   font-weight: 1000;
   font-size: 34px;
   letter-spacing: 7px;
-  padding-left: 124px;
+  padding-left: 114px;
   padding-bottom: 0px;
-  padding-top: 260px;
+  padding-top: 60px;
   margin-top: 0px;
 
 }
@@ -781,7 +791,7 @@ hr {
   font-weight: 1000;
   font-size: 34px;
   letter-spacing: 7px;
-  padding-left: 124px;
+  padding-left: 90px;
   padding-bottom: 0px;
   padding-top: 150px;
   margin-top: 0px;
@@ -791,16 +801,16 @@ hr {
   padding-left: 25px;
   padding-top: 10px;
   font-size: 17px;
-  padding-right: 100px;
+  padding-right: 90px;
 }
 .campsubtext2{
-  padding-left: 120px;
+  padding-left: 114px;
   padding-top: 10px;
   font-size: 16px;
   padding-right: 30px;
 }
 .campsubtext4{
-  padding-left: 120px;
+  padding-left: 90px;
   padding-top: 10px;
   font-size: 18px;
   padding-right: 30px;
@@ -1236,7 +1246,7 @@ body{
   padding-top: 35px;
 }
 .row {
-  
+
 }
 
 .column {
@@ -1260,6 +1270,11 @@ body{
 }
 .padleftconspec{
   padding-left: 40px;
+}
+
+.campPic1{
+  width: 460px;
+  height: 460px;
 }
 
 
@@ -1346,6 +1361,8 @@ color: #DCDCDC
 .timeline ul li:nth-child(odd) div {
   left: 45px;
 }
+
+
 
 .timeline ul li:nth-child(odd) div::before {
   left: -15px;
@@ -1660,14 +1677,25 @@ color: #DCDCDC
   }
 
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199px) {
   .campsubtext2{
-    padding-left: 0px;
+    padding-left: 10px;
   }
   .campsub2{
-    padding-top: 20px;
+    padding-top: 50px;
     font-size: 25px;
-    padding-left: 0px;
+    padding-left: 10px;
+  }
+  .campsubtext4{
+    padding-left: 10px;
+  }
+  .campsub4{
+    padding-top: 100px;
+    font-size: 35px;
+    padding-left: 10px;
+  }
+  .campsub{
+    padding-top: 30px;
   }
 
 }
@@ -1685,8 +1713,12 @@ color: #DCDCDC
     width: 350px;
     height: 350px;
   }
+  .campPic5{
+    width: 350px;
+    height: 350px;
+  }
   .campsub{
-    padding-top: 0px;
+    padding-top: 20px;
     font-size: 25px;
   }
   .campsubtext{
@@ -1695,10 +1727,10 @@ color: #DCDCDC
   .campsub2{
     padding-top: 20px;
     font-size: 25px;
-    padding-left: 140px;
+    padding-left: 125px;
   }
   .campsubtext2{
-    padding-left: 140px;
+    padding-left: 125px;
     font-size: 12px;
   }
   .campsub3{
@@ -1721,19 +1753,22 @@ color: #DCDCDC
   }
   .campsubtext4{
     padding-left: 140px;
-    font-size: 20px;
+    font-size: 15px;
+  }
+  .campsub4{
+    padding-top: 60px;
   }
 
 }
 
 @media screen and (max-width: 991px) {
   .campsubtext2{
-    padding-left: 30px;
+    padding-left: 15px;
   }
   .campsub2{
     padding-top: 20px;
 
-    padding-left: 30px;
+    padding-left: 15px;
   }
   .campsubtext4{
     padding-left: 30px;
@@ -1746,11 +1781,17 @@ color: #DCDCDC
   .campsubtext{
     padding-right: 0px;
   }
+  .campsubtext3{
+    padding-top: 40px;
+  }
   .direven{
     padding-bottom: 11px;
   }
   .direven2{
     padding-bottom: 0px;
+  }
+  .campsub4{
+    padding-top: 70px;
   }
 
 
