@@ -3,6 +3,9 @@ MAKE THE SUPPORT ICONS LINKS
 
 contact us doesnt change color on hover
 
+bug field shrinks at certain width (smaller than laptop size)
+bug navbar smaller than normal
+
 Make hamburger on the right u nerdo
 
 columns dont stay as columns when you resize page on support and staff

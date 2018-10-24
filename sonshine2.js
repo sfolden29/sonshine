@@ -2,15 +2,21 @@ fixPad();
 function fixPad(){
 
 
-  var screenHeight = screen.height;
-  var clientHeight = document.getElementById('indexH1').clientHeight;
-  var clientHeight2 = document.getElementById('indexH2').clientHeight;
-  var h1MarginTop = parseInt( $("#indexH1").css("marginTop") );
-  var h1MarginBottom = parseInt( $("#indexH1").css("marginBottom") );
+  var screenHeight = window.innerHeight;
+  var clientHeight = document.getElementById('adder').clientHeight;
 
-  var divHeights = clientHeight+clientHeight2+h1MarginTop+h1MarginBottom;
+  var h1MarginTop = parseInt( $("#indexH1").css("marginTop") );
+
+
+
+  var divHeights = clientHeight+h1MarginTop;
 
   var topmar = screenHeight-divHeights;
+  console.log(divHeights +" divheights")
+  console.log(topmar+" calculated margin")
+  console.log(screenHeight+" screen height")
+
   document.getElementById("jsgod").style.marginTop = topmar+"px";
+  console.log(document.getElementById("jsgod").style.marginTop)
 
 }
