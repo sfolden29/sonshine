@@ -1543,6 +1543,7 @@ color: #DCDCDC
 }
 .conpad2{
   padding-bottom: 50px;
+  width: 80%;
 }
 .alumsub2{
   padding-left: 120px;
@@ -1725,6 +1726,9 @@ color: #DCDCDC
   }
   .direven2{
     padding-bottom: 15px;
+  }
+  .form-group{
+    width: 450px;
   }
 }
 @media screen and (max-width: 1040px){
