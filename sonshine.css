@@ -1595,10 +1595,86 @@ color: #DCDCDC
   font-family: 'Bree Serif', serif;
 
 }
+.insleep{
+  display: none;
+}
 
 .topspace{
   padding-top: 60px;
 }
+
+@media screen and (max-width: 1196px){
+
+  .sonshinetitle2{
+    letter-spacing: 6px;
+  }
+
+
+}
+@media screen and (max-width: 1171px){
+
+  .sonshinetitle2{
+    letter-spacing: 4px;
+  }
+
+
+}
+@media screen and (max-width: 1150px){
+
+  .sonshinetitle{
+    font-size: 100px;
+  }
+
+
+}
+@media screen and (max-width: 1070px){
+
+  .sonshinetitle2{
+    letter-spacing: 8px;
+  }
+  .insleep{
+    display: inline;
+  }
+
+
+}
+@media screen and (max-width: 950px){
+
+  .sonshinetitle{
+    font-size: 85px;
+  }
+
+
+}
+@media screen and (max-width: 850px){
+
+  .sonshinetitle{
+    padding-left: 60px;
+  }
+  .sonshinetitle2{
+    padding-left: 60px;
+  }
+
+
+}
+@media screen and (max-width: 700px){
+.sonshinetitle2{
+  font-size: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 75vh;
+  text-align: center;
+}
+.sonshinetitle{
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 60px;
+  text-align: center;
+  font-size: 50px;
+
+}
+}
+
 @media screen and (max-width: 1047px){
   .direven{
     padding-bottom: 0px;
@@ -2333,14 +2409,7 @@ color: #DCDCDC
 
 
   }
-  .sonshinetitle{
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 60px;
-    text-align: center;
-    font-size: 35px;
 
-  }
   .sonshinetitle22{
     padding-left: 0px;
     padding-right: 0px;
@@ -2349,13 +2418,7 @@ color: #DCDCDC
     font-size: 35px;
 
   }
-  .sonshinetitle2{
-    font-size: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 75vh;
-    text-align: center;
-  }
+
   .sonshinetitle23{
     font-size: 15px;
     padding-left: 10px;
@@ -2726,6 +2789,23 @@ color: #DCDCDC
   #impfont{
     font-size: 15px;
   }
+}
+@media screen and (max-width: 480px){
+.sonshinetitle2{
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 75vh;
+  text-align: center;
+}
+.sonshinetitle{
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 60px;
+  text-align: center;
+  font-size: 35px;
+
+}
 }
 
 

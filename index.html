@@ -1,6 +1,7 @@
 <!DOCTYPE html>
+
 <html>
-  <head>
+  <head >
     <meta charset="utf-8">
     <title>Sonshine Ministries</title>
     <!-- Latest compiled and minified CSS -->
@@ -10,10 +11,11 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:900" rel="stylesheet">
     <link rel="shortcut icon" href="boatlogo.png" type="image/x-icon">
-      <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
 
-  <body class = "nomargin">
+  <body class = "nomargin" onresize="fixPad()" >
 
 
 
@@ -139,11 +141,12 @@
 
 <div class="sonbody">
   <div >
-    <h1 class = "sonshinetitle">SONSHINE <br> MINISTRIES</h1>
-    <h1 class = "sonshinetitle2 nomarg">SPECIALIZED CAMPING</h1>
+    <h1 class = "sonshinetitle" id = "indexH1">SONSHINE <br> MINISTRIES</h1>
+    <h1 class = "sonshinetitle2 nomarg" id = "indexH2">SPECIALIZED <br class="insleep"> CAMPING</h1>
 
   </div>
-  <div class="welcomecent nomarg">
+
+  <div  id ="jsgod" class="welcomecent nomarg">
           <h1 class = "nomarg welcomemess makeCent">WE ARE SONSHINE</h1>
           <h3 id = "solid"class = "makeCent evenpad welcomemess2">We work with your leadership to custom tailor the most incredible week on your ministry calendar. The combination of your leadership, our equipment and staff, along with the incredible power of God’s Spirit makes it happen year after year.</h3>
   </div>
@@ -151,7 +154,7 @@
 
 
       <div class="bigboytext background-tintpzz">2018 REGISTRATION</div>
-      <h3 class = "smallboytext ">Reservations for the 2018 season has begun.  Be sure to contact our office and reserve a trip today! Once again we are fully committed to making your 2018 houseboat trip another incredible experience. <br><a class = "mobileLinkSleeper" href="about.html#reg"> Learn more about the registration process.</a></h3>
+      <h3 class = "smallboytext background-tintpzz">Reservations for the 2018 season has begun.  Be sure to contact our office and reserve a trip today! Once again we are fully committed to making your 2018 houseboat trip another incredible experience. <br><a class = "mobileLinkSleeper" href="about.html#reg"> Learn more about the registration process.</a></h3>
 
   </div>
 
@@ -198,22 +201,22 @@
   </div>
 </div>
 </div>
+<script src="sonshine2.js"></script>
+<script
+src="http://code.jquery.com/jquery-3.1.1.js"
+integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+crossorigin="anonymous"></script>  <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 
 
 
 
 
-        <script type="text/javascript" src="jquery.js"></script>  <!-- Latest compiled and minified JavaScript -->
-      <!--  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
 
-        <script language="JavaScript" type="text/javascript">
-        $(document).ready(function(){
-          $('.carousel').carousel({
-            interval: 5000
-          })
-        });
-        </script>
+
+
+
 
 
 
