@@ -1190,6 +1190,10 @@ body{
 .fa, .fa:hover, .fa:active, .fa:visited, .fa:focus {
   text-decoration:none;
 }
+.insleep{
+  display: none;
+}
+
 
 .fa:visited, .fa:active, {
   color: #454E54;
@@ -1594,9 +1598,6 @@ color: #DCDCDC
   font-size: 40px;
   font-family: 'Bree Serif', serif;
 
-}
-.insleep{
-  display: none;
 }
 
 .topspace{
