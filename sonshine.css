@@ -1472,11 +1472,40 @@ color: #DCDCDC
 .timeline ul li:nth-child(odd) div {
   transform: translate3d(200px,0,0);
 }
+.logopad{
+  padding-left: 30px;
+
+}
+.logopad2{
+  margin-bottom: 30px;
+  padding-top: 0px;
+}
+.quickmarg{
+  margin-right: 30px !important;
+}
+.logopls{
+  padding-top: 6px !important;
+}
 .welcomecent{
   background-color: #d9e1e2;
+  background-color: rgba(217, 225, 226, .92);
 
   margin-bottom: 0px;
 
+}
+.colornav{
+  text-align: right;
+}
+.rnco{
+  color: #777 !important;
+}
+.nmb{
+  margin: 0px !important;
+  border: none !important;
+}
+.nmp{
+  padding: 0px !important;
+  border: none !important;
 }
 .newbutt2{
   text-align: center;

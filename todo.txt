@@ -1,6 +1,8 @@
 THINGS I STILL GOTTA fix
 MAKE THE SUPPORT ICONS LINKS
 
+contact us doesnt change color on hover
+
 Make hamburger on the right u nerdo
 
 columns dont stay as columns when you resize page on support and staff
