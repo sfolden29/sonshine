@@ -1041,6 +1041,20 @@ hr {
   padding-left: 120px;
   padding-top: 70px;
 }
+@media screen and (min-width: 1450px){
+
+.sonshinetitle{
+  font-size: 150px;
+}
+.sonshinetitle2{
+  font-size: 35px;
+}
+
+
+}
+
+
+
 .sonshinetitle2{
   font-size: 30px;
   color: #2C2D2F;
