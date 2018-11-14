@@ -30,40 +30,40 @@ window.addEventListener("scroll", callbackFunc);
 var times = document.getElementsByClassName("timeElement");
 /*
 for (var j = 0; j < items.length; j++) {
-  if(items[j].offsetHeight>300 && j!=5)
-  {
-     console.log("exactly");
-     times[j].classList.add("setHeight");
-  }
+if(items[j].offsetHeight>300 && j!=5)
+{
+console.log("exactly");
+times[j].classList.add("setHeight");
+}
 
 }
 
 for (var k = 0; k < items.length; k++) {
-  items[j].onmouseover = function(){
-    if ( $( times[j] ).hasClass( "setHeight" ) ) {
-      alert(k);
-    }
-  };
+items[j].onmouseover = function(){
+if ( $( times[j] ).hasClass( "setHeight" ) ) {
+alert(k);
+}
+};
 }
 */
 
 
 setTimeout(function()
 {
-	var max = 350;
+  var max = 350;
   var tot, str;
   $('.timeElement').each(function() {
-  	str = String($(this).html());
+    str = String($(this).html());
     og=str;
 
-  	tot = str.length;
+    tot = str.length;
     if(tot>=max)
     {
       $(this).addClass("short")
     }
     str = (tot <= max)
-    	? str
-      : str.substring(0,(max + 1))+"...";
+    ? str
+    : str.substring(0,(max + 1))+"...";
     $(this).html(str);
   });
 },350);
@@ -111,20 +111,20 @@ $('.timeElement').hover( e => {
   $(e.target).removeClass("hover");
   setTimeout(function()
   {
-  	var max = 350;
+    var max = 350;
     var tot, str;
     $(e.target).each(function() {
-    	str = String($(this).html());
+      str = String($(this).html());
       og=str;
 
-    	tot = str.length;
+      tot = str.length;
       if(tot>=max)
       {
         $(this).addClass("short")
       }
       str = (tot <= max)
-      	? str
-        : str.substring(0,(max + 1))+"...";
+      ? str
+      : str.substring(0,(max + 1))+"...";
       $(this).html(str);
     });
   },350);

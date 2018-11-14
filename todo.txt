@@ -3,6 +3,8 @@ MAKE THE SUPPORT ICONS LINKS
 
 contact us doesnt change color on hover
 
+put the js that makes the words start at bottom always on all apges not just index
+
 bug field shrinks at certain width (smaller than laptop size)
 bug navbar smaller than normal
 

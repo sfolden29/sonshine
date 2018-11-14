@@ -79,16 +79,16 @@
 
 /*
 @media screen and (max-width: 1250px){
-  .leftstaff{
-    font-size: 15px !important;
+.leftstaff{
+font-size: 15px !important;
 
-  }
-  .centerstaff{
-    font-size: 15px !important;
-  }
-  .rightstaff{
-    font-size: 15px !important;
-  }
+}
+.centerstaff{
+font-size: 15px !important;
+}
+.rightstaff{
+font-size: 15px !important;
+}
 
 
 }
@@ -157,7 +157,7 @@
 
 }
 .worldgreen{
-    background-color: #d9e1e2;
+  background-color: #d9e1e2;
 
 }
 .direven{
@@ -322,7 +322,7 @@
   width: 100%;
 }
 @media screen and (min-width: 768px){
-.sonbody{overflow:hidden;}
+  .sonbody{overflow:hidden;}
 }
 
 .sonbody22{
@@ -621,7 +621,7 @@
   padding-top: 30px;
   font-size: 14px;
   padding-right: 100px;
-    padding-bottom: 50px;
+  padding-bottom: 50px;
 }
 .alumsubtext2{
   padding-left: 60px;
@@ -785,7 +785,7 @@ hr {
   letter-spacing: 7px;
   padding-left: 90px;
   padding-bottom: 0px;
-  padding-top: 150px;
+  padding-top: 100px;
   margin-top: 0px;
 
 }
@@ -997,19 +997,19 @@ hr {
 
 }
 #colornav{
-color: #555;
+  color: #555;
 
 }
 .colornav:hover{
-color: #111 !important;
+  color: #111 !important;
 
 }
 
 @media screen and (min-width: 768px){
-.active{
-  background-image: linear-gradient(to bottom,  gainsboro, #F0F0F0);
+  .active{
+    background-image: linear-gradient(to bottom,  gainsboro, #F0F0F0);
 
-}
+  }
 }
 .nomar{
   margin-bottom: 0px;
@@ -1050,283 +1050,283 @@ color: #111 !important;
 }
 @media screen and (min-width: 1450px){
 
-.sonshinetitle{
-  font-size: 150px;
-}
-.sonshinetitle2{
-  font-size: 35px;
-}
+  .sonshinetitle{
+    font-size: 150px;
+  }
+  .sonshinetitle2{
+    font-size: 35px;
+  }
 }
 
 
 
 .jsgod{}
-.sonshinetitle2{
-  font-size: 30px;
-  color: #2C2D2F;
-  padding-left: 120px;
-  padding-bottom: 130px;
-  font-family: 'Raleway',sans-serif;
-  font-weight: 1000;
-  letter-spacing: 8px;
-  margin-bottom: 0px;
-}
-.sonshinetitle23{
-  font-size: 30px;
-  padding-top: 30px;
-  color: #2C2D2F;
-  padding-left: 80px;
-  padding-right: 80px;
-  padding-bottom: 100px;
-  margin-top: 0px;
-  font-family: 'Raleway',sans-serif;
-  font-weight: 1000;
-  letter-spacing: 2px;
-  margin-bottom: 0px;
-}
+  .sonshinetitle2{
+    font-size: 30px;
+    color: #2C2D2F;
+    padding-left: 120px;
+    padding-bottom: 130px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 1000;
+    letter-spacing: 8px;
+    margin-bottom: 0px;
+  }
+  .sonshinetitle23{
+    font-size: 30px;
+    padding-top: 30px;
+    color: #2C2D2F;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 100px;
+    margin-top: 0px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 1000;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+  }
 
-.needpic{
-  background: url("water.png")  top center ;
-  background-size: cover;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  .needpic{
+    background: url("water.png")  top center ;
+    background-size: cover;
+    padding-top: 0px;
+    padding-bottom: 0px;
 
-  width: 100%;
+    width: 100%;
 
-}
+  }
 
-.evenpad{
-  padding-left: 80px;
-  padding-right: 80px;
+  .evenpad{
+    padding-left: 80px;
+    padding-right: 80px;
 
-}
-.pfdmess4{
-  font-family: 'Raleway', sans-serif;
-  padding-bottom: 50px;
-  padding-top: 35px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-size: 35px;
-}
-.makeRight{
-  padding-left: 100px;
-  padding-bottom: 50px;
-}
-.emsleep{
-  display:none;
-}
-.makeRightish{
-  padding-left: 60px;
-}
-.botmarg{
-  padding-bottom: 400px;
-}
-.navbar-default{
+  }
+  .pfdmess4{
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 50px;
+    padding-top: 35px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 35px;
+  }
+  .makeRight{
+    padding-left: 100px;
+    padding-bottom: 50px;
+  }
+  .emsleep{
+    display:none;
+  }
+  .makeRightish{
+    padding-left: 60px;
+  }
+  .botmarg{
+    padding-bottom: 400px;
+  }
+  .navbar-default{
 
-  background-color: #F5F5F5 !important;
-
-
-
-
-}
-
-.missionsize{
-  font-size: 50px;
-}
-.nomarg{
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-.nomarge{
-  margin-right: 0px;
-  padding-right: 0px;
-}
-.welcomemess{
-  padding-top: 60px;
-  font-family: 'Raleway',sans-serif;
-  padding-bottom: 20px;
-  font-size: 50px;
-  letter-spacing: 7px;
-}
-.welcomemess2{
-  padding-bottom: 70px;
-
-  font-family: 'Raleway',sans-serif;
-  opacity: 1.0;
-  line-height: 40px;
-  margin-bottom: 200px;
-}
-.nma{
-  margin-right: 0px;
-}
-
-.newbutt2{
-  margin-bottom: 10px;
-
-}
-body{
-  margin-right: 0px;
-}
-.bpadd{
-  padding-bottom: 100px;
-}
-.alummess3{
-  padding-top: 0px;
-  margin-top: 0px;
-
-  font-size: 22px;
-  letter-spacing: 2px;
-  line-height: 35px;
-  padding-left: 5%;
-  padding-right: 5%;
-
-}
-
-.exbot{
-  padding-bottom: 90px;
-}
+    background-color: #F5F5F5 !important;
 
 
 
 
+  }
 
-.fa{
-  padding: 20px;
-  font-size: 55px;
-  width: 70px;
-  text-decoration: none;
-}
-.fa-facebook{
-  padding-left: 43%;
-  padding-right: 80px;
-}
-.fa{
-  padding-top: 40px;
-}
-.bigPad{
-  padding-top: 0px;
-  margin-top: 0px;
-  padding-bottom: 80px;
-}
-.fa, .fa:hover, .fa:active, .fa:visited, .fa:focus {
-  text-decoration:none;
-}
-.insleep{
-  display: none;
-}
+  .missionsize{
+    font-size: 50px;
+  }
+  .nomarg{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .nomarge{
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+  .welcomemess{
+    padding-top: 100px;
+    font-family: 'Raleway',sans-serif;
+    padding-bottom: 20px;
+    font-size: 50px;
+    letter-spacing: 7px;
+  }
+  .welcomemess2{
+    padding-bottom: 120px;
 
+    font-family: 'Raleway',sans-serif;
+    opacity: 1.0;
+    line-height: 40px;
+    margin-bottom: 200px;
+  }
+  .nma{
+    margin-right: 0px;
+  }
 
-.fa:visited, .fa:active, {
-  color: #454E54;
-}
-.map2{
-  margin-top: 14px;
-}
+  .newbutt2{
+    margin-bottom: 10px;
 
-.addLeftPad2{
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 30px;
+  }
+  body{
+    margin-right: 0px;
+  }
+  .bpadd{
+    padding-bottom: 100px;
+  }
+  .alummess3{
+    padding-top: 0px;
+    margin-top: 0px;
 
-}
+    font-size: 22px;
+    letter-spacing: 2px;
+    line-height: 35px;
+    padding-left: 5%;
+    padding-right: 5%;
 
-.makeLeft{
-  text-align: left;
-}
-.dir{
-  padding-top: 120px;
-  font-size: 50px;
-  letter-spacing: 6px;
-  font-kerning: none;
-  font-family: 'Raleway', sans-serif;
-  line-height: 100px;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-  margin-top: 0px;
-}
+  }
 
-.jumbosim{
-  padding-left: 60px;
-  padding-right: 60px;
-  background-color: #d9e1e2;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-
-.slightlower{
-  margin-top: 20px;
-}
-.slightlower2{
-  margin-top: 20px;
-}
-.nom{
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-top: 150px;
-  padding-bottom: 100px;
-}
-.eb{
-  padding-bottom: 35px;
-}
-
-.botpadbig{
-  padding-bottom: 220px;
-}
-
-.et{
-  padding-top: 35px;
-}
-.row {
-
-}
-
-.column {
-  flex: 50%;
-}
-
-.columncon {
-  flex: 50%;
-  padding-top: 0px;
-}
-
-.map{
-  letter-spacing: 4px;
-  padding-top: 40px;
-  padding-bottom: 20px;
-  font-size: 30px;
-  font-weight: bold;
-}
-.padleft{
-  padding-left: 40px;
-}
-.padleftconspec{
-  padding-left: 40px;
-}
-
-.campPic1{
-  width: 460px;
-  height: 460px;
-}
+  .exbot{
+    padding-bottom: 90px;
+  }
 
 
-.darker{
-  background-color: #BEBEBE;
-  margin-bottom: 0px;
-}
-.mapmarge{
-  margin-bottom: 30px;
-}
-.mapmarge2{
-  margin-bottom: 30px;
-}
 
-.nopad{
-  padding-bottom:  0px;
-  margin-bottom: 0px;
-  padding-top:  0px;
-  padding-left: 20px;
-}
+
+
+  .fa{
+    padding: 20px;
+    font-size: 55px;
+    width: 70px;
+    text-decoration: none;
+  }
+  .fa-facebook{
+    padding-left: 43%;
+    padding-right: 80px;
+  }
+  .fa{
+    padding-top: 40px;
+  }
+  .bigPad{
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 80px;
+  }
+  .fa, .fa:hover, .fa:active, .fa:visited, .fa:focus {
+    text-decoration:none;
+  }
+  .insleep{
+    display: none;
+  }
+
+
+  .fa:visited, .fa:active, {
+    color: #454E54;
+  }
+  .map2{
+    margin-top: 14px;
+  }
+
+  .addLeftPad2{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+
+  }
+
+  .makeLeft{
+    text-align: left;
+  }
+  .dir{
+    padding-top: 120px;
+    font-size: 50px;
+    letter-spacing: 6px;
+    font-kerning: none;
+    font-family: 'Raleway', sans-serif;
+    line-height: 100px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .jumbosim{
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: #d9e1e2;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
+
+  .slightlower{
+    margin-top: 20px;
+  }
+  .slightlower2{
+    margin-top: 20px;
+  }
+  .nom{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  .eb{
+    padding-bottom: 35px;
+  }
+
+  .botpadbig{
+    padding-bottom: 220px;
+  }
+
+  .et{
+    padding-top: 35px;
+  }
+  .row {
+
+  }
+
+  .column {
+    flex: 50%;
+  }
+
+  .columncon {
+    flex: 50%;
+    padding-top: 0px;
+  }
+
+  .map{
+    letter-spacing: 4px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .padleft{
+    padding-left: 40px;
+  }
+  .padleftconspec{
+    padding-left: 40px;
+  }
+
+  .campPic1{
+    width: 460px;
+    height: 460px;
+  }
+
+
+  .darker{
+    background-color: #BEBEBE;
+    margin-bottom: 0px;
+  }
+  .mapmarge{
+    margin-bottom: 30px;
+  }
+  .mapmarge2{
+    margin-bottom: 30px;
+  }
+
+  .nopad{
+    padding-bottom:  0px;
+    margin-bottom: 0px;
+    padding-top:  0px;
+    padding-left: 20px;
+  }
 
 
 
@@ -1366,7 +1366,7 @@ body{
   padding: 15px;
   /*
   background: #707070;
-color: #DCDCDC
+  color: #DCDCDC
   color: #2C2D2F;
   */
 
@@ -1376,7 +1376,7 @@ color: #DCDCDC
 
 }
 .mapSize{
-    width: 80%;
+  width: 80%;
 
 }
 
@@ -1708,21 +1708,21 @@ color: #DCDCDC
 
 }
 @media screen and (max-width: 700px){
-.sonshinetitle2{
-  font-size: 25px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 75vh;
-  text-align: center;
-}
-.sonshinetitle{
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-top: 60px;
-  text-align: center;
-  font-size: 50px;
+  .sonshinetitle2{
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 75vh;
+    text-align: center;
+  }
+  .sonshinetitle{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 60px;
+    text-align: center;
+    font-size: 50px;
 
-}
+  }
 }
 
 @media screen and (max-width: 1047px){
@@ -1804,8 +1804,8 @@ color: #DCDCDC
 
   }
   .alumPic2{
-  margin-left: 0px;
-  padding-left: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
   }
   .alumpic{
     height: 400px;
@@ -2017,198 +2017,198 @@ color: #DCDCDC
     }
 
 
-@media screen and (max-width: 810px){
-  .addLeftPad3{
-    margin-left: 50px;
-    padding-left: 40px;
-  }
-  .direven{
-    padding-bottom: 0px;
+    @media screen and (max-width: 810px){
+      .addLeftPad3{
+        margin-left: 50px;
+        padding-left: 40px;
+      }
+      .direven{
+        padding-bottom: 0px;
 
-  }
-  .direven2{
-    padding-bottom: 15px;
+      }
+      .direven2{
+        padding-bottom: 15px;
 
-  }
-}
-@media screen and (max-width: 767px) {
+      }
+    }
+    @media screen and (max-width: 767px) {
 
-  .colornav:hover{
-    background-color: #E8E8E8 !important;
+      .colornav:hover{
+        background-color: #E8E8E8 !important;
 
-}
+      }
 
-  .colornav{
-    padding-right: 40px !important;
-  }
-  .colornav2{
-    padding-right: 25px !important;
-  }
+      .colornav{
+        padding-right: 40px !important;
+      }
+      .colornav2{
+        padding-right: 25px !important;
+      }
 
-  .campsub{
-      text-align: center;
-      font-size: 30px;
-      padding-left: 15px;
-      padding-right: 15px;
-  }
-  .campsub2{
-    font-size: 30px;
-      text-align: center;
-      padding-left: 15px;
-      padding-right: 15px;
-  }
-  .campsub3{
-      text-align: center;
-      padding-left: 15px;
-      padding-right: 15px;
-  }
-  .campsubtext4{
-      text-align: center;
-      padding-left: 15px;
-      padding-right: 15px;
-  }
-  .campsubtext{
-    text-align: center;
-    padding-bottom: 70px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  .campsubtext2{
-    text-align: center;
-    padding-bottom: 70px;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 15px;
-  }
-  .campsubtext3{
-    text-align: center;
-    padding-right: 0px;
-    padding-bottom: 100px;
-    padding-top: 40px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  .campsub4{
-    text-align: center;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 30px;
-    padding-top: 30px;
-  }
+      .campsub{
+        text-align: center;
+        font-size: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      .campsub2{
+        font-size: 30px;
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      .campsub3{
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      .campsubtext4{
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      .campsubtext{
+        text-align: center;
+        padding-bottom: 70px;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      .campsubtext2{
+        text-align: center;
+        padding-bottom: 70px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 15px;
+      }
+      .campsubtext3{
+        text-align: center;
+        padding-right: 0px;
+        padding-bottom: 100px;
+        padding-top: 40px;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      .campsub4{
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 30px;
+        padding-top: 30px;
+      }
 
-  .campPic1{
-    float: none !important;
-    width: 80vw;
-    height: 80vw;
-    margin-left: 7vw;
+      .campPic1{
+        float: none !important;
+        width: 80vw;
+        height: 80vw;
+        margin-left: 7vw;
 
-  }
-  .campPic2{
-    float: none !important;
-    width: 80vw;
-    height: 80vw;
-    margin-left: 9vw;
+      }
+      .campPic2{
+        float: none !important;
+        width: 80vw;
+        height: 80vw;
+        margin-left: 9vw;
 
-  }
-  .campPic3{
-    float: none !important;
-    width: 80vw;
-    height: 80vw;
-    margin-left: 7vw;
+      }
+      .campPic3{
+        float: none !important;
+        width: 80vw;
+        height: 80vw;
+        margin-left: 7vw;
 
-  }
-  .campPic5{
-    float: none !important;
-    width: 80vw;
-    height: 80vw;
-    margin-left: 10vw;
+      }
+      .campPic5{
+        float: none !important;
+        width: 80vw;
+        height: 80vw;
+        margin-left: 10vw;
 
-  }
-  .campPic4{
-    float: none !important;
-    width: 80vw;
-    height: 80vw;
-    margin-left: 10vw;
-    margin-bottom: 0px;
+      }
+      .campPic4{
+        float: none !important;
+        width: 80vw;
+        height: 80vw;
+        margin-left: 10vw;
+        margin-bottom: 0px;
 
-  }
-  .hmm{
-    margin-bottom: 60px;
-  }
-
-
-
-
-  .addpadlol{
-    padding-top: 20px;
-  }
-  .map{
-    padding-top: 15px;
-  }
-  .conpadlol{
-    padding-top: 0px;
-  }
-  .conmod{
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    width: 50%;
-    border-top-color: white;
-    border-top-width: medium;
-  }
-
-  .botpadsmall{
-    padding-bottom: 50px;
-  }
-  .nomobmargecon{
-    margin-bottom: 0px;
-  }
-  .eb{
-    padding-bottom: 0px;
-  }
-  .dir{
-    padding-top: 0px;
-  }
-
-  .addLeftPad3{
-    padding-left: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-bottom: 30px;
-    margin-bottom: 0px;
-  }
-  .padtopdel{
-    padding-top: 0px;
-  }
-  .padleftconspec{
-    padding-left: 0px;
-  }
-  .direven{
-    padding-bottom: 0px;
-  }
-  .biggreen{
-    margin-top: 0px;
-  }
-  .worldgreen{
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-bottom: 0px;
-  }
-  .consleep{
-    text-align: center;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  .padbotnull{
-    padding-bottom: 0px;
-  }
-  /* .darkinv{
-    color:#4F7276;
+      }
+      .hmm{
+        margin-bottom: 60px;
+      }
 
 
 
-  }
-  .darkinvback{
+
+      .addpadlol{
+        padding-top: 20px;
+      }
+      .map{
+        padding-top: 15px;
+      }
+      .conpadlol{
+        padding-top: 0px;
+      }
+      .conmod{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 50%;
+        border-top-color: white;
+        border-top-width: medium;
+      }
+
+      .botpadsmall{
+        padding-bottom: 50px;
+      }
+      .nomobmargecon{
+        margin-bottom: 0px;
+      }
+      .eb{
+        padding-bottom: 0px;
+      }
+      .dir{
+        padding-top: 0px;
+      }
+
+      .addLeftPad3{
+        padding-left: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 30px;
+        margin-bottom: 0px;
+      }
+      .padtopdel{
+        padding-top: 0px;
+      }
+      .padleftconspec{
+        padding-left: 0px;
+      }
+      .direven{
+        padding-bottom: 0px;
+      }
+      .biggreen{
+        margin-top: 0px;
+      }
+      .worldgreen{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 0px;
+      }
+      .consleep{
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+      .padbotnull{
+        padding-bottom: 0px;
+      }
+      /* .darkinv{
+      color:#4F7276;
+
+
+
+    }
+    .darkinvback{
     background-color: rgb(217, 225, 226);
   }
   */
@@ -2333,36 +2333,36 @@ color: #DCDCDC
     padding-left: 20px;
     padding-right: 20px;
   }
-.alumPic1{
-  margin-left: auto;
-  margin-right: auto;
-  float: none !important;
-  display: block;
-  width: 90%;
-  height: 90%;
+  .alumPic1{
+    margin-left: auto;
+    margin-right: auto;
+    float: none !important;
+    display: block;
+    width: 90%;
+    height: 90%;
 
 
 
 
 
-}
-.alumPic2{
-  padding-left: 5vw;
-  height: 90vw;
-  width: 90vw;
-}
-.alummess{
-  font-size: 42px;
-  text-align: center;
-}
-.alummess2{
-  font-size: 25px;
-  padding-top: 50vh;
-}
-.alummess3{
-  font-size: 14px;
-  line-height: normal;
-}
+  }
+  .alumPic2{
+    padding-left: 5vw;
+    height: 90vw;
+    width: 90vw;
+  }
+  .alummess{
+    font-size: 42px;
+    text-align: center;
+  }
+  .alummess2{
+    font-size: 25px;
+    padding-top: 50vh;
+  }
+  .alummess3{
+    font-size: 14px;
+    line-height: normal;
+  }
   .alumsub2{
     padding-top: 40px;
     padding-left: 30px;
@@ -2392,13 +2392,13 @@ color: #DCDCDC
 
   .addLeftPad3{
 
-      background-color: #87A1A4;
-      padding-left: 0px;
-      margin-left: 0px;
-      margin-top: 0px;
+    background-color: #87A1A4;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
 
 
-      margin-bottom: 0px;
+    margin-bottom: 0px;
 
 
   }
@@ -2857,21 +2857,21 @@ color: #DCDCDC
   }
 }
 @media screen and (max-width: 480px){
-.sonshinetitle2{
-  font-size: 15px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 75vh;
-  text-align: center;
-}
-.sonshinetitle{
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-top: 60px;
-  text-align: center;
-  font-size: 35px;
+  .sonshinetitle2{
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 75vh;
+    text-align: center;
+  }
+  .sonshinetitle{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 60px;
+    text-align: center;
+    font-size: 35px;
 
-}
+  }
 }
 
 
