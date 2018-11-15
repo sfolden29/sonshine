@@ -12,11 +12,11 @@ function fixPad(){
   var divHeights = clientHeight+h1MarginTop;
 
   var topmar = screenHeight-divHeights;
-  console.log(divHeights +" divheights")
-  console.log(topmar+" calculated margin")
-  console.log(screenHeight+" screen height")
+  //console.log(divHeights +" divheights")
+  //console.log(topmar+" calculated margin")
+  //console.log(screenHeight+" screen height")
 
   document.getElementById("jsgod").style.marginTop = topmar+"px";
-  console.log(document.getElementById("jsgod").style.marginTop)
+  //console.log(document.getElementById("jsgod").style.marginTop)
 
 }
